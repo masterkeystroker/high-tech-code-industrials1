@@ -1,0 +1,22 @@
+La aplicación utiliza identificadores para buscar su traducción tanto al diseñar (usando Visual Studio o Expression Blend) como al ejecutar.
+
+Los identificadores siempre estarán escritos en mayúsculas y con barras bajas, sin espacios ni otros caracteres y preferiblemente en inglés. P.e.:  MODEL_EDIT
+
+--------
+Prefijos
+--------
+Los identificadores deben tener almenos un prefijo para facilitar su búsqueda y ordenación, el prefijo puede indicar un tipo de texto o su ubicación en la aplicación:
+
+M_ = Identificador relativo al menu superior de la pantalla principal, el resto de partes del identificador indican los subitems a los que pertenecen
+
+G_ = Identificadores Globales, susceptibles de repetirse en más sitios
+
+MAIN_ = Pantalla principal
+
+MAIN_M_ = Contenido del menu
+
+-------
+Sufijos
+-------
+El sufijo _COLON indicará un identificador que ya existe pero con ":" al final de la frase
+
