@@ -1,0 +1,22 @@
+
+Importing Model from XMI
+***** Root Package: libGISCom *****
+Add Classifier: eErrorCodes
+Add Classifier: eStatusCodes
+Add Classifier: clsClienteTCP
+Add Classifier: clsProtocoloPL
+Add Classifier: eTrafficLightCodes
+Add Classifier: sRespuestaServidor
+Add Classifier: clsProtocoloCX
+***** Resolving Classifiers *****
+***** Resolving Owners *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!

@@ -1,0 +1,90 @@
+Exporting package to 'C:\Desarrollo\CC3\Diseño\kernel.xml'
+Retrieving data for export: packages
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+***** Processing package: Kernel *****
+Element:0: InkSystem
+Element:1: Cabezales
+Element:2: TCP_IPClient
+Element:3: Cabezal
+Element:4: Modelo
+Element:5: RipEngine
+Element:6: Kernel
+Element:7: TAS
+Element:8: libGISCom
+Element:9: Modelos
+Element:10: Kernel
+Element:11: DB
+Element:12: PrintEngine
+Element:13: TCP_IPServer
+Element:14: PLC
+Element:15: WPF Forms
+Diagram: Kernel
+***** Processing package: DB *****
+Element:16: mysql.conexion.dll
+Element:17: mysql.data.dll
+Element:18: iBD
+Element:19: clsBD
+Diagram: DB
+***** Processing package: InkSystem *****
+Element:20: clsInkSystem
+Element:21: libInkBox.dll
+Element:22: iInkSystem
+Element:23: libModbus.dll
+Diagram: PrintEngine
+***** Processing package: Kernel *****
+Diagram: Kernel
+***** Processing package: libGISCom *****
+Element:24: eErrorCodes
+Element:25: eStatusCodes
+Element:26: clsClienteTCP
+Element:27: clsProtocoloPL
+Element:28: eTrafficLightCodes
+Element:29: sRespuestaServidor
+Element:30: clsProtocoloCX
+Diagram: libGISCom
+***** Processing package: PLC *****
+Element:31: clsPLCSchneider
+Element:32: iPLC
+Element:33: clsSchneiderPLCCom
+Element:34: clsRotwellPLCCom
+Element:35: clsPLCRotwell
+Diagram: PLC
+***** Processing package: RipEngine *****
+Element:36: clsGISRipEngine
+Element:37: iRipEngine
+Element:38: clsEFIRipEngine
+Diagram: RipEngine
+***** Processing package: WPF Forms *****
+Diagram: WPF Forms
+***** Processing package: PrintEngine *****
+Element:39: clsDimatixGISPMB
+Element:40: clsToshibaHead
+Element:41: 
+Element:42: libGISCom
+Element:43: clsDimatixHead
+Element:44: $help://classdiagram.htm
+Element:45: clsPrintEngine
+Element:46: iPrintEngine
+Element:47: funcionesAuxiliares
+Element:48: clsToshibaGISPMB
+Element:49: clsXaarHead
+Element:50: clsToshibaGISBar
+Element:51: clsXaarGISPMB
+Element:52: iBar
+Element:53: $help://class_model_pattern.htm
+Element:54: 
+Element:55: clsDimatixGISBar
+Element:56: Note
+Element:57: clsXaarGISBar
+Diagram: PrintEngine
+Formatting output XML...please wait
+XMI Document Export Complete!

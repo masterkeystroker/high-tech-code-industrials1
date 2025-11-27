@@ -1,0 +1,81 @@
+
+Importing Model from XMI
+***** Root Package: Kernel *****
+Add Classifier: Cabezales
+Add Classifier: TCP_IPClient
+Add Classifier: Cabezal
+Add Classifier: Modelo
+Add Classifier: TAS
+Add Classifier: Modelos
+Add Classifier: Kernel
+Add Classifier: TCP_IPServer
+Add Classifier Role: InkSystem
+Add Classifier Role: RipEngine
+Add Classifier Role: Kernel
+Add Classifier Role: libGISCom
+Add Classifier Role: DB
+Add Classifier Role: PrintEngine
+Add Classifier Role: PLC
+Add Classifier Role: WPF Forms
+***** Append Package: DB *****
+Add Classifier: mysql.conexion.dll
+Add Classifier: mysql.data.dll
+Add Classifier: iBD
+Add Classifier: clsBD
+***** Append Package: InkSystem *****
+Add Classifier: clsInkSystem
+Add Classifier: libInkBox.dll
+Add Classifier: iInkSystem
+Add Classifier: libModbus.dll
+***** Append Package: Kernel *****
+***** Append Package: libGISCom *****
+Add Classifier: eErrorCodes
+Add Classifier: eStatusCodes
+Add Classifier: clsClienteTCP
+Add Classifier: clsProtocoloPL
+Add Classifier: eTrafficLightCodes
+Add Classifier: sRespuestaServidor
+Add Classifier: clsProtocoloCX
+***** Append Package: PLC *****
+Add Classifier: clsPLCSchneider
+Add Classifier: iPLC
+Add Classifier: clsSchneiderPLCCom
+Add Classifier: clsRotwellPLCCom
+Add Classifier: clsPLCRotwell
+***** Append Package: RipEngine *****
+Add Classifier: clsGISRipEngine
+Add Classifier: iRipEngine
+Add Classifier: clsEFIRipEngine
+***** Append Package: WPF Forms *****
+***** Append Package: PrintEngine *****
+Add Classifier: clsDimatixGISPMB
+Add Classifier: clsToshibaHead
+Add Classifier: 
+Add Classifier: libGISCom
+Add Classifier: clsDimatixHead
+Add Classifier: $help://classdiagram.htm
+Add Classifier: clsPrintEngine
+Add Classifier: iPrintEngine
+Add Classifier: funcionesAuxiliares
+Add Classifier: clsToshibaGISPMB
+Add Classifier: clsXaarHead
+Add Classifier: clsToshibaGISBar
+Add Classifier: clsXaarGISPMB
+Add Classifier: iBar
+Add Classifier: $help://class_model_pattern.htm
+Add Classifier: 
+Add Classifier: clsDimatixGISBar
+Add Classifier: Note
+Add Classifier: clsXaarGISBar
+***** Resolving Classifiers *****
+***** Resolving Owners *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!
