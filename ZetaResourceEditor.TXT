@@ -1,0 +1,3 @@
+Este programa sirve para editar los archivos de idioma de forma sencilla.
+
+Hay que abrir todos los documentos .resx de la carpeta /idiomas de dentro del proyecto

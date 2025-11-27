@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="P_ALARM_500" xml:space="preserve">
+		<value>PC与PLC通讯错误</value>
+	</data>
+	<data name="P_ALARM_501" xml:space="preserve">
+		<value>PLC已停止</value>
+	</data>
+	<data name="P_ALARM_502" xml:space="preserve">
+		<value>打印服务器未初始化</value>
+	</data>
+	<data name="P_ALARM_503" xml:space="preserve">
+		<value>渲染务器未连接</value>
+	</data>
+	<data name="P_ALARM_504" xml:space="preserve">
+		<value>第2生产线打印服务器没有初始化</value>
+	</data>
+	<data name="P_ALARM_001" xml:space="preserve">
+		<value>急停按钮被按下！</value>
+	</data>
+	<data name="P_ALARM_100" xml:space="preserve">
+		<value>打印模块5墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_101" xml:space="preserve">
+		<value>打印模块6墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_102" xml:space="preserve">
+		<value>打印模块7墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_103" xml:space="preserve">
+		<value>打印模块8墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_104" xml:space="preserve">
+		<value>皮带电机通讯错误</value>
+	</data>
+	<data name="P_ALARM_105" xml:space="preserve">
+		<value>没有读取像，无法打印</value>
+	</data>
+	<data name="P_ALARM_106" xml:space="preserve">
+		<value>PC与PLC通讯错误</value>
+	</data>
+	<data name="P_ALARM_016" xml:space="preserve">
+		<value>打印模块1墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_017" xml:space="preserve">
+		<value>打印模块2墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_018" xml:space="preserve">
+		<value>打印模块3墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_019" xml:space="preserve">
+		<value>打印模块4墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_020" xml:space="preserve">
+		<value>打印模块5墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_021" xml:space="preserve">
+		<value>打印模块6墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_022" xml:space="preserve">
+		<value>打印模块7墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_023" xml:space="preserve">
+		<value>打印模块8墨水溢出报警</value>
+	</data>
+	<data name="P_ALARM_024" xml:space="preserve">
+		<value>打印模块1墨桶已空</value>
+	</data>
+	<data name="P_ALARM_025" xml:space="preserve">
+		<value>打印模块2墨桶已空</value>
+	</data>
+	<data name="P_ALARM_026" xml:space="preserve">
+		<value>打印模块3墨桶已空</value>
+	</data>
+	<data name="P_ALARM_027" xml:space="preserve">
+		<value>打印模块4墨桶已空</value>
+	</data>
+	<data name="P_ALARM_028" xml:space="preserve">
+		<value>打印模块5墨桶已空</value>
+	</data>
+	<data name="P_ALARM_029" xml:space="preserve">
+		<value>打印模块6墨桶已空</value>
+	</data>
+	<data name="P_ALARM_030" xml:space="preserve">
+		<value>打印模块7墨桶已空</value>
+	</data>
+	<data name="P_ALARM_031" xml:space="preserve">
+		<value>打印模块8墨桶已空</value>
+	</data>
+	<data name="P_ALARM_032" xml:space="preserve">
+		<value>请对打印模块1加墨</value>
+	</data>
+	<data name="P_ALARM_033" xml:space="preserve">
+		<value>请对打印模块2加墨</value>
+	</data>
+	<data name="P_ALARM_034" xml:space="preserve">
+		<value>请对打印模块3加墨</value>
+	</data>
+	<data name="P_ALARM_035" xml:space="preserve">
+		<value>请对打印模块4加墨</value>
+	</data>
+	<data name="P_ALARM_036" xml:space="preserve">
+		<value>请对打印模块5加墨</value>
+	</data>
+	<data name="P_ALARM_037" xml:space="preserve">
+		<value>请对打印模块6加墨</value>
+	</data>
+	<data name="P_ALARM_038" xml:space="preserve">
+		<value>请对打印模块7加墨</value>
+	</data>
+	<data name="P_ALARM_039" xml:space="preserve">
+		<value>请对打印模块8加墨</value>
+	</data>
+	<data name="P_ALARM_048" xml:space="preserve">
+		<value>打印模块1真空度差异</value>
+	</data>
+	<data name="P_ALARM_049" xml:space="preserve">
+		<value>打印模块2真空度差异</value>
+	</data>
+	<data name="P_ALARM_050" xml:space="preserve">
+		<value>打印模块3真空度差异</value>
+	</data>
+	<data name="P_ALARM_051" xml:space="preserve">
+		<value>打印模块4真空度差异</value>
+	</data>
+	<data name="P_ALARM_052" xml:space="preserve">
+		<value>打印模块5真空度差异</value>
+	</data>
+	<data name="P_ALARM_053" xml:space="preserve">
+		<value>打印模块6真空度差异</value>
+	</data>
+	<data name="P_ALARM_054" xml:space="preserve">
+		<value>打印模块7真空度差异</value>
+	</data>
+	<data name="P_ALARM_055" xml:space="preserve">
+		<value>打印模块8真空度差异</value>
+	</data>
+	<data name="P_ALARM_056" xml:space="preserve">
+		<value>打印模块1墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_057" xml:space="preserve">
+		<value>打印模块2墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_058" xml:space="preserve">
+		<value>打印模块3墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_059" xml:space="preserve">
+		<value>打印模块4墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_060" xml:space="preserve">
+		<value>打印模块5墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_061" xml:space="preserve">
+		<value>打印模块6墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_062" xml:space="preserve">
+		<value>打印模块7墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_063" xml:space="preserve">
+		<value>打印模块8墨水压力盒温度差异</value>
+	</data>
+	<data name="P_ALARM_064" xml:space="preserve">
+		<value>打印模块1中墨桶搅拌器过热保护报警[B1-8K2]</value>
+	</data>
+	<data name="P_ALARM_065" xml:space="preserve">
+		<value>打印模块2中墨桶搅拌器过热保护报警[B2-8K2]</value>
+	</data>
+	<data name="P_ALARM_066" xml:space="preserve">
+		<value>打印模块3中墨桶搅拌器过热保护报警[B3-8K2]</value>
+	</data>
+	<data name="P_ALARM_067" xml:space="preserve">
+		<value>打印模块4中墨桶搅拌器过热保护报警[B4-8K2]</value>
+	</data>
+	<data name="P_ALARM_068" xml:space="preserve">
+		<value>打印模块5中墨桶搅拌器过热保护报警[B5-8K2]</value>
+	</data>
+	<data name="P_ALARM_069" xml:space="preserve">
+		<value>打印模块6中墨桶搅拌器过热保护报警[B6-8K2]</value>
+	</data>
+	<data name="P_ALARM_070" xml:space="preserve">
+		<value>打印模块7中墨桶搅拌器过热保护报警[B7-8K2]</value>
+	</data>
+	<data name="P_ALARM_071" xml:space="preserve">
+		<value>打印模块8中墨桶搅拌器过热保护报警[B8-8K2]</value>
+	</data>
+	<data name="P_ALARM_072" xml:space="preserve">
+		<value>请打开打印模块1的搅拌器</value>
+	</data>
+	<data name="P_ALARM_073" xml:space="preserve">
+		<value>请打开打印模块2的搅拌器</value>
+	</data>
+	<data name="P_ALARM_074" xml:space="preserve">
+		<value>请打开打印模块3的搅拌器</value>
+	</data>
+	<data name="P_ALARM_075" xml:space="preserve">
+		<value>请打开打印模块4的搅拌器</value>
+	</data>
+	<data name="P_ALARM_076" xml:space="preserve">
+		<value>请打开打印模块5的搅拌器</value>
+	</data>
+	<data name="P_ALARM_077" xml:space="preserve">
+		<value>请打开打印模块6的搅拌器</value>
+	</data>
+	<data name="P_ALARM_078" xml:space="preserve">
+		<value>请打开打印模块7的搅拌器</value>
+	</data>
+	<data name="P_ALARM_079" xml:space="preserve">
+		<value>请打开打印模块8的搅拌器</value>
+	</data>
+	<data name="P_ALARM_008" xml:space="preserve">
+		<value>压缩空气回路（清洗吸嘴用）中没有通压缩空气</value>
+	</data>
+	<data name="P_ALARM_080" xml:space="preserve">
+		<value>打印模块1墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_081" xml:space="preserve">
+		<value>打印模块2墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_082" xml:space="preserve">
+		<value>打印模块3墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_083" xml:space="preserve">
+		<value>打印模块4墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_084" xml:space="preserve">
+		<value>打印模块5墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_085" xml:space="preserve">
+		<value>打印模块6墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_086" xml:space="preserve">
+		<value>打印模块7墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_087" xml:space="preserve">
+		<value>打印模块8墨桶温度差异报警</value>
+	</data>
+	<data name="P_ALARM_088" xml:space="preserve">
+		<value>打印模块1墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_089" xml:space="preserve">
+		<value>打印模块2墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_090" xml:space="preserve">
+		<value>打印模块3墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_091" xml:space="preserve">
+		<value>打印模块4墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_092" xml:space="preserve">
+		<value>打印模块5墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_093" xml:space="preserve">
+		<value>打印模块6墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_094" xml:space="preserve">
+		<value>打印模块7墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_095" xml:space="preserve">
+		<value>打印模块8墨水循环停止</value>
+	</data>
+	<data name="P_ALARM_096" xml:space="preserve">
+		<value>打印模块1墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_097" xml:space="preserve">
+		<value>打印模块2墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_098" xml:space="preserve">
+		<value>打印模块3墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_099" xml:space="preserve">
+		<value>打印模块4墨桶温度感应器失效报警</value>
+	</data>
+	<data name="P_ALARM_505" xml:space="preserve">
+		<value>摄像头1通讯错误</value>
+	</data>
+</root>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ALARM_502" xml:space="preserve">
+		<value>PRINT SERVER NOT INITIALIZED</value>
+	</data>
+	<data name="ALARM_001" xml:space="preserve">
+		<value>START STIRRER IN BAR 1</value>
+	</data>
+	<data name="ALARM_010" xml:space="preserve">
+		<value>NO AIR IN AIR CIRCUIT 2 (SUCTION) [C-70U8]</value>
+	</data>
+	<data name="ALARM_100" xml:space="preserve">
+		<value>BAR 5 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B5-8K2]</value>
+	</data>
+	<data name="ALARM_101" xml:space="preserve">
+		<value>BAR 6 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B6-8K2]</value>
+	</data>
+	<data name="ALARM_102" xml:space="preserve">
+		<value>BAR 7 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B7-8K2]</value>
+	</data>
+	<data name="ALARM_103" xml:space="preserve">
+		<value>BAR 8 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B8-8K2]</value>
+	</data>
+	<data name="ALARM_104" xml:space="preserve">
+		<value>FAN THERMAL RELAY, MAIN PANEL [C-2D2D] [C-2Q2E]</value>
+	</data>
+	<data name="ALARM_105" xml:space="preserve">
+		<value>ELECTRIC PANEL - FAN THERMAL PROTECTION FAILURE [C-2D2D] [C-2Q2E]</value>
+	</data>
+	<data name="ALARM_106" xml:space="preserve">
+		<value>UPS FAILURE [C-10U3]</value>
+	</data>
+	<data name="ALARM_011" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH TRANSPORT BELT MOTOR [C-8U2]</value>
+	</data>
+	<data name="ALARM_115" xml:space="preserve">
+		<value>INPUT THICKNESS TILE SENSOR [C-73U4]</value>
+	</data>
+	<data name="ALARM_116" xml:space="preserve">
+		<value>BAR 1 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_117" xml:space="preserve">
+		<value>BAR 2 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_118" xml:space="preserve">
+		<value>BAR 3 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_119" xml:space="preserve">
+		<value>BAR 4 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_012" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 1 [B1-70U1]</value>
+	</data>
+	<data name="ALARM_120" xml:space="preserve">
+		<value>BAR 5 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_121" xml:space="preserve">
+		<value>BAR 6 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_122" xml:space="preserve">
+		<value>BAR 7 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_123" xml:space="preserve">
+		<value>BAR 8 TRAY SENSORS [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_124" xml:space="preserve">
+		<value>EMERGENCY BUTTON PRESSED</value>
+	</data>
+	<data name="ALARM_125" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 1 [B1-23B1]</value>
+	</data>
+	<data name="ALARM_126" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 2 [B2-23B1]</value>
+	</data>
+	<data name="ALARM_127" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 3 [B3-23B1]</value>
+	</data>
+	<data name="ALARM_128" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 4 [B4-23B1]</value>
+	</data>
+	<data name="ALARM_129" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 5 [B5-23B1]</value>
+	</data>
+	<data name="ALARM_013" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 2 [B2-70U1]</value>
+	</data>
+	<data name="ALARM_130" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 6 [B6-23B1]</value>
+	</data>
+	<data name="ALARM_131" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 7 [B7-23B1]</value>
+	</data>
+	<data name="ALARM_132" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR FOR ANTI STEAM, BAR 8 [B8-23B1]</value>
+	</data>
+	<data name="ALARM_133" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 1 [B1-30U3]</value>
+	</data>
+	<data name="ALARM_134" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 2 [B2-30U3]</value>
+	</data>
+	<data name="ALARM_135" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 3 [B3-30U3]</value>
+	</data>
+	<data name="ALARM_136" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 4 [B4-30U3]</value>
+	</data>
+	<data name="ALARM_137" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 5 [B5-30U3]</value>
+	</data>
+	<data name="ALARM_138" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 6 [B6-30U3]</value>
+	</data>
+	<data name="ALARM_139" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 7 [B7-30U3]</value>
+	</data>
+	<data name="ALARM_014" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 3 [B3-70U1]</value>
+	</data>
+	<data name="ALARM_140" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR, RESERVOIR BAR 8 [B8-30U3]</value>
+	</data>
+	<data name="ALARM_141" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 1 [B1-32B4]</value>
+	</data>
+	<data name="ALARM_142" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 2 [B2-32B4]</value>
+	</data>
+	<data name="ALARM_143" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 3 [B3-32B4]</value>
+	</data>
+	<data name="ALARM_144" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 4 [B4-32B4]</value>
+	</data>
+	<data name="ALARM_145" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 5 [B5-32B4]</value>
+	</data>
+	<data name="ALARM_146" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 6 [B6-32B4]</value>
+	</data>
+	<data name="ALARM_147" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 7 [B7-32B4]</value>
+	</data>
+	<data name="ALARM_148" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (A), HEADER TANK BAR 8 [B8-32B4]</value>
+	</data>
+	<data name="ALARM_149" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 1 [B1-32B4]</value>
+	</data>
+	<data name="ALARM_015" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 4 [B4-70U1]</value>
+	</data>
+	<data name="ALARM_150" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 2 [B2-32B4]</value>
+	</data>
+	<data name="ALARM_151" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 3 [B3-32B4]</value>
+	</data>
+	<data name="ALARM_152" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 4 [B4-32B4]</value>
+	</data>
+	<data name="ALARM_153" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 5 [B5-32B4]</value>
+	</data>
+	<data name="ALARM_154" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 6 [B6-32B4]</value>
+	</data>
+	<data name="ALARM_155" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 7 [B7-32B4]</value>
+	</data>
+	<data name="ALARM_156" xml:space="preserve">
+		<value>BROKEN TEMPERATURE SENSOR (B), HEADER TANK BAR 8 [B8-32B4]</value>
+	</data>
+	<data name="ALARM_157" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 1</value>
+	</data>
+	<data name="ALARM_158" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 2</value>
+	</data>
+	<data name="ALARM_159" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 3</value>
+	</data>
+	<data name="ALARM_016" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 5 [B5-70U1]</value>
+	</data>
+	<data name="ALARM_160" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 4</value>
+	</data>
+	<data name="ALARM_161" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 5</value>
+	</data>
+	<data name="ALARM_162" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 6</value>
+	</data>
+	<data name="ALARM_163" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 7</value>
+	</data>
+	<data name="ALARM_164" xml:space="preserve">
+		<value>ANTI STEAM TEMPERATURE DIFFERENCE IN BAR 8</value>
+	</data>
+	<data name="ALARM_165" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 1</value>
+	</data>
+	<data name="ALARM_166" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 2</value>
+	</data>
+	<data name="ALARM_167" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 3</value>
+	</data>
+	<data name="ALARM_168" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 4</value>
+	</data>
+	<data name="ALARM_169" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 5</value>
+	</data>
+	<data name="ALARM_017" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 6 [B6-70U1]</value>
+	</data>
+	<data name="ALARM_170" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 6</value>
+	</data>
+	<data name="ALARM_171" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 7</value>
+	</data>
+	<data name="ALARM_172" xml:space="preserve">
+		<value>RESERVOIR TEMPERATURE DIFFERENCE IN BAR 8</value>
+	</data>
+	<data name="ALARM_173" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 1 [B1-32B2]</value>
+	</data>
+	<data name="ALARM_174" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 2 [B2-32B2]</value>
+	</data>
+	<data name="ALARM_175" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 3 [B3-32B2]</value>
+	</data>
+	<data name="ALARM_176" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 4 [B4-32B2]</value>
+	</data>
+	<data name="ALARM_177" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 5 [B5-32B2]</value>
+	</data>
+	<data name="ALARM_178" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 6 [B6-32B2]</value>
+	</data>
+	<data name="ALARM_179" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 7 [B7-32B2]</value>
+	</data>
+	<data name="ALARM_018" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 7 [B7-70U1]</value>
+	</data>
+	<data name="ALARM_180" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (A), HEADER TANK BAR 8 [B8-32B2]</value>
+	</data>
+	<data name="ALARM_181" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 1 [B1-32B2]</value>
+	</data>
+	<data name="ALARM_182" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 2 [B2-32B2]</value>
+	</data>
+	<data name="ALARM_183" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 3 [B3-32B2]</value>
+	</data>
+	<data name="ALARM_184" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 4 [B4-32B2]</value>
+	</data>
+	<data name="ALARM_185" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 5 [B5-32B2]</value>
+	</data>
+	<data name="ALARM_186" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 6 [B6-32B2]</value>
+	</data>
+	<data name="ALARM_187" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 7 [B7-32B2]</value>
+	</data>
+	<data name="ALARM_188" xml:space="preserve">
+		<value>BROKEN VACUUM SENSOR (B), HEADER TANK BAR 8 [B8-32B2]</value>
+	</data>
+	<data name="ALARM_189" xml:space="preserve">
+		<value>TRANSPORT BELT MOTOR [C-8U2]</value>
+	</data>
+	<data name="ALARM_019" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH MOTOR BAR 8 [B8-70U1]</value>
+	</data>
+	<data name="ALARM_190" xml:space="preserve">
+		<value>THERMAL RELAY BAR 1 [B1-1Q4]</value>
+	</data>
+	<data name="ALARM_191" xml:space="preserve">
+		<value>THERMAL RELAY BAR 2 [B2-1Q4]</value>
+	</data>
+	<data name="ALARM_192" xml:space="preserve">
+		<value>THERMAL RELAY BAR 3 [B3-1Q4]</value>
+	</data>
+	<data name="ALARM_193" xml:space="preserve">
+		<value>THERMAL RELAY BAR 4 [B4-1Q4]</value>
+	</data>
+	<data name="ALARM_194" xml:space="preserve">
+		<value>THERMAL RELAY BAR 5 [B5-1Q4]</value>
+	</data>
+	<data name="ALARM_195" xml:space="preserve">
+		<value>THERMAL RELAY BAR 6 [B6-1Q4]</value>
+	</data>
+	<data name="ALARM_196" xml:space="preserve">
+		<value>THERMAL RELAY BAR 7 [B7-1Q4]</value>
+	</data>
+	<data name="ALARM_197" xml:space="preserve">
+		<value>THERMAL RELAY BAR 8 [B8-1Q4]</value>
+	</data>
+	<data name="ALARM_198" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 1 [B1-3G3]</value>
+	</data>
+	<data name="ALARM_199" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 2 [B2-3G3]</value>
+	</data>
+	<data name="ALARM_002" xml:space="preserve">
+		<value>START STIRRER IN BAR 2</value>
+	</data>
+	<data name="ALARM_020" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 1 [B1-42A5]</value>
+	</data>
+	<data name="ALARM_200" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 3 [B3-3G3]</value>
+	</data>
+	<data name="ALARM_201" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 4 [B4-3G3]</value>
+	</data>
+	<data name="ALARM_202" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 5 [B5-3G3]</value>
+	</data>
+	<data name="ALARM_203" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 6 [B6-3G3]</value>
+	</data>
+	<data name="ALARM_204" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 7 [B7-3G3]</value>
+	</data>
+	<data name="ALARM_205" xml:space="preserve">
+		<value>POWER SUPPLY PRINT HEADS, BAR 8 [B8-3G3]</value>
+	</data>
+	<data name="ALARM_206" xml:space="preserve">
+		<value>EXTERNAL STOP SIGNAL, LINE 1</value>
+	</data>
+	<data name="ALARM_207" xml:space="preserve">
+		<value>EXTERNAL STOP SIGNAL, LINE 2</value>
+	</data>
+	<data name="ALARM_208" xml:space="preserve">
+		<value>TRANSPORT BELT AND BARS MOTOR DIFFERENCE [C-2D7D] - [C-2D9D]</value>
+	</data>
+	<data name="ALARM_209" xml:space="preserve">
+		<value>BARS ARE NOT IN PRINTING POSITION</value>
+	</data>
+	<data name="ALARM_021" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 2 [B2-42A5]</value>
+	</data>
+	<data name="ALARM_210" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 1</value>
+	</data>
+	<data name="ALARM_211" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 2</value>
+	</data>
+	<data name="ALARM_212" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 3</value>
+	</data>
+	<data name="ALARM_213" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 4</value>
+	</data>
+	<data name="ALARM_214" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 5</value>
+	</data>
+	<data name="ALARM_215" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 6</value>
+	</data>
+	<data name="ALARM_216" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 7</value>
+	</data>
+	<data name="ALARM_217" xml:space="preserve">
+		<value>RECIRCULATION STOPPED, BAR 8</value>
+	</data>
+	<data name="ALARM_500" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH PLC</value>
+	</data>
+	<data name="ALARM_501" xml:space="preserve">
+		<value>PLC IS STOPPED</value>
+	</data>
+	<data name="ALARM_022" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 3 [B3-42A5]</value>
+	</data>
+	<data name="ALARM_023" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 4 [B4-42A5]</value>
+	</data>
+	<data name="ALARM_024" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 5 [B5-42A5]</value>
+	</data>
+	<data name="ALARM_025" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 6 [B6-42A5]</value>
+	</data>
+	<data name="ALARM_026" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 7 [B7-42A5]</value>
+	</data>
+	<data name="ALARM_027" xml:space="preserve">
+		<value>COMMUNICATION FAILURE WITH I/O MODULE BAR 8 [B8-42A5]</value>
+	</data>
+	<data name="ALARM_028" xml:space="preserve">
+		<value>COMNUNICATION FAILURE WITH I/O MODULE CONTROL PANEL [C-207A4]</value>
+	</data>
+	<data name="ALARM_029" xml:space="preserve">
+		<value>COMMUNICATION FAILURE BETWEEN PLC AND PC</value>
+	</data>
+	<data name="ALARM_003" xml:space="preserve">
+		<value>START STIRRER IN BAR 3</value>
+	</data>
+	<data name="ALARM_030" xml:space="preserve">
+		<value>FILL RESERVOIR 1</value>
+	</data>
+	<data name="ALARM_031" xml:space="preserve">
+		<value>FILL RESERVOIR 2</value>
+	</data>
+	<data name="ALARM_032" xml:space="preserve">
+		<value>FILL RESERVOIR 3</value>
+	</data>
+	<data name="ALARM_033" xml:space="preserve">
+		<value>FILL RESERVOIR 4</value>
+	</data>
+	<data name="ALARM_034" xml:space="preserve">
+		<value>FILL RESERVOIR 5</value>
+	</data>
+	<data name="ALARM_035" xml:space="preserve">
+		<value>FILL RESERVOIR 6</value>
+	</data>
+	<data name="ALARM_036" xml:space="preserve">
+		<value>FILL RESERVOIR 7</value>
+	</data>
+	<data name="ALARM_037" xml:space="preserve">
+		<value>FILL RESERVOIR 8</value>
+	</data>
+	<data name="ALARM_038" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 1</value>
+	</data>
+	<data name="ALARM_039" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 2</value>
+	</data>
+	<data name="ALARM_004" xml:space="preserve">
+		<value>START STIRRER IN BAR 4</value>
+	</data>
+	<data name="ALARM_040" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 3</value>
+	</data>
+	<data name="ALARM_041" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 4</value>
+	</data>
+	<data name="ALARM_042" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 5</value>
+	</data>
+	<data name="ALARM_043" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 6</value>
+	</data>
+	<data name="ALARM_044" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 7</value>
+	</data>
+	<data name="ALARM_045" xml:space="preserve">
+		<value>EMPTY RESERVOIR, BAR 8</value>
+	</data>
+	<data name="ALARM_046" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 1</value>
+	</data>
+	<data name="ALARM_047" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 2</value>
+	</data>
+	<data name="ALARM_048" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 3</value>
+	</data>
+	<data name="ALARM_049" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 4</value>
+	</data>
+	<data name="ALARM_005" xml:space="preserve">
+		<value>START STIRRER IN BAR 5</value>
+	</data>
+	<data name="ALARM_050" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 5</value>
+	</data>
+	<data name="ALARM_051" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 6</value>
+	</data>
+	<data name="ALARM_052" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 7</value>
+	</data>
+	<data name="ALARM_053" xml:space="preserve">
+		<value>HEADER TANK TEMPERATURE DIFFERENCE, BAR 8</value>
+	</data>
+	<data name="ALARM_054" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 1</value>
+	</data>
+	<data name="ALARM_055" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 2</value>
+	</data>
+	<data name="ALARM_056" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 3</value>
+	</data>
+	<data name="ALARM_057" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 4</value>
+	</data>
+	<data name="ALARM_058" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 5</value>
+	</data>
+	<data name="ALARM_059" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 6</value>
+	</data>
+	<data name="ALARM_006" xml:space="preserve">
+		<value>START STIRRER IN BAR 6</value>
+	</data>
+	<data name="ALARM_060" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 7</value>
+	</data>
+	<data name="ALARM_061" xml:space="preserve">
+		<value>HEADER TANK VACUUM DIFFERENCE, BAR 8</value>
+	</data>
+	<data name="ALARM_062" xml:space="preserve">
+		<value>FAILSAFE BAR 1 [B1-21B5]</value>
+	</data>
+	<data name="ALARM_063" xml:space="preserve">
+		<value>FAILSAFE BAR 2 [B2-21B5]</value>
+	</data>
+	<data name="ALARM_064" xml:space="preserve">
+		<value>FAILSAFE BAR 3 [B3-21B5]</value>
+	</data>
+	<data name="ALARM_065" xml:space="preserve">
+		<value>FAILSAFE BAR 4 [B4-21B5]</value>
+	</data>
+	<data name="ALARM_066" xml:space="preserve">
+		<value>FAILSAFE BAR 5 [B5-21B5]</value>
+	</data>
+	<data name="ALARM_067" xml:space="preserve">
+		<value>FAILSAFE BAR 6 [B6-21B5]</value>
+	</data>
+	<data name="ALARM_068" xml:space="preserve">
+		<value>FAILSAFE BAR 7 [B7-21B5]</value>
+	</data>
+	<data name="ALARM_069" xml:space="preserve">
+		<value>FAILSAFE BAR 8 [B8-21B5]</value>
+	</data>
+	<data name="ALARM_007" xml:space="preserve">
+		<value>START STIRRER IN BAR 7</value>
+	</data>
+	<data name="ALARM_070" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 1 [B1-70U1]</value>
+	</data>
+	<data name="ALARM_071" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 2 [B2-70U1]</value>
+	</data>
+	<data name="ALARM_072" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 3 [B3-70U1]</value>
+	</data>
+	<data name="ALARM_073" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 4 [B4-70U1]</value>
+	</data>
+	<data name="ALARM_074" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 5 [B5-70U1]</value>
+	</data>
+	<data name="ALARM_075" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 6 [B6-70U1]</value>
+	</data>
+	<data name="ALARM_076" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 7 [B7-70U1]</value>
+	</data>
+	<data name="ALARM_077" xml:space="preserve">
+		<value>HOMING NEEDED FOR MOTOR, BAR 8 [B8-70U1]</value>
+	</data>
+	<data name="ALARM_078" xml:space="preserve">
+		<value>NO IMAGE LOADED TO PRINT</value>
+	</data>
+	<data name="ALARM_079" xml:space="preserve">
+		<value>BAR 1 MOTOR [B1-70U1]</value>
+	</data>
+	<data name="ALARM_008" xml:space="preserve">
+		<value>START STIRRER IN BAR 8</value>
+	</data>
+	<data name="ALARM_080" xml:space="preserve">
+		<value>BAR 2 MOTOR [B2-70U1]</value>
+	</data>
+	<data name="ALARM_081" xml:space="preserve">
+		<value>BAR 3 MOTOR [B3-70U1]</value>
+	</data>
+	<data name="ALARM_082" xml:space="preserve">
+		<value>BAR 4 MOTOR [B4-70U1]</value>
+	</data>
+	<data name="ALARM_083" xml:space="preserve">
+		<value>BAR 5 MOTOR [B5-70U1]</value>
+	</data>
+	<data name="ALARM_084" xml:space="preserve">
+		<value>BAR 6 MOTOR [B6-70U1]</value>
+	</data>
+	<data name="ALARM_085" xml:space="preserve">
+		<value>BAR 7 MOTOR [B7-70U1]</value>
+	</data>
+	<data name="ALARM_086" xml:space="preserve">
+		<value>BAR 8 MOTOR [B8-70U1]</value>
+	</data>
+	<data name="ALARM_087" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 1 [B1-30U3]</value>
+	</data>
+	<data name="ALARM_088" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 2 [B2-30U3]</value>
+	</data>
+	<data name="ALARM_089" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 3 [B3-30U3]</value>
+	</data>
+	<data name="ALARM_009" xml:space="preserve">
+		<value>NO AIR IN AIR CIRCUIT 1 (MAIN) [C-70U6]</value>
+	</data>
+	<data name="ALARM_090" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 4 [B4-30U3]</value>
+	</data>
+	<data name="ALARM_091" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 5 [B5-30U3]</value>
+	</data>
+	<data name="ALARM_092" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 6 [B6-30U3]</value>
+	</data>
+	<data name="ALARM_093" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 7 [B7-30U3]</value>
+	</data>
+	<data name="ALARM_094" xml:space="preserve">
+		<value>INCONSISTENT LEVEL SIGNALS FROM RESERVOIR, BAR 8 [B8-30U3]</value>
+	</data>
+	<data name="ALARM_095" xml:space="preserve">
+		<value>SYSTEM STOPPED DUE TO INPUT SENSORS EXCESSIVE THICKNESS</value>
+	</data>
+	<data name="ALARM_096" xml:space="preserve">
+		<value>BAR 1 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B1-8K2]</value>
+	</data>
+	<data name="ALARM_097" xml:space="preserve">
+		<value>BAR 2 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B2-8K2]</value>
+	</data>
+	<data name="ALARM_098" xml:space="preserve">
+		<value>BAR 3 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B3-8K2]</value>
+	</data>
+	<data name="ALARM_099" xml:space="preserve">
+		<value>BAR 4 - MAIN TANK STIRRER THERMAL PROTECTION FAILURE [B4-8K2]</value>
+	</data>
+	<data name="ALARM_503" xml:space="preserve">
+		<value>RENDER SERVER DISCONNECTED</value>
+	</data>
+	<data name="SLAVE_ACTIV_1" xml:space="preserve">
+		<value>LX32 Drive belt:</value>
+	</data>
+	<data name="SLAVE_ACTIV_2" xml:space="preserve">
+		<value>OTB Island controls:</value>
+	</data>
+	<data name="SLAVE_ACTIV_11" xml:space="preserve">
+		<value>ICLA motor bar 1:</value>
+	</data>
+	<data name="SLAVE_ACTIV_12" xml:space="preserve">
+		<value>ICLA motor bar 2:</value>
+	</data>
+	<data name="SLAVE_ACTIV_13" xml:space="preserve">
+		<value>ICLA motor bar 3:</value>
+	</data>
+	<data name="SLAVE_ACTIV_14" xml:space="preserve">
+		<value>ICLA motor bar 4:</value>
+	</data>
+	<data name="SLAVE_ACTIV_15" xml:space="preserve">
+		<value>ICLA motor bar 5:</value>
+	</data>
+	<data name="SLAVE_ACTIV_16" xml:space="preserve">
+		<value>ICLA motor bar 6:</value>
+	</data>
+	<data name="SLAVE_ACTIV_17" xml:space="preserve">
+		<value>ICLA motor bar 7:</value>
+	</data>
+	<data name="SLAVE_ACTIV_18" xml:space="preserve">
+		<value>ICLA motor bar 8:</value>
+	</data>
+	<data name="SLAVE_ACTIV_21" xml:space="preserve">
+		<value>TM5 Island bar 1:</value>
+	</data>
+	<data name="SLAVE_ACTIV_22" xml:space="preserve">
+		<value>TM5 Island bar 2:</value>
+	</data>
+	<data name="SLAVE_ACTIV_23" xml:space="preserve">
+		<value>TM5 Island bar 3:</value>
+	</data>
+	<data name="SLAVE_ACTIV_24" xml:space="preserve">
+		<value>TM5 Island bar 4:</value>
+	</data>
+	<data name="SLAVE_ACTIV_25" xml:space="preserve">
+		<value>TM5 Island bar 5:</value>
+	</data>
+	<data name="SLAVE_ACTIV_26" xml:space="preserve">
+		<value>TM5 Island bar 6:</value>
+	</data>
+	<data name="SLAVE_ACTIV_27" xml:space="preserve">
+		<value>TM5 Island bar 7:</value>
+	</data>
+	<data name="SLAVE_ACTIV_28" xml:space="preserve">
+		<value>TM5 Island bar 8:</value>
+	</data>
+	<data name="ALARM_504" xml:space="preserve">
+		<value>PRINT SERVER NOT INITIALIZED - L2</value>
+	</data>
+	<data name="ALARM_505" xml:space="preserve">
+		<value>COMMUNICATION ERROR CAMERA 1</value>
+	</data>
+	<data name="ALARM_506" xml:space="preserve">
+		<value>COMMUNICATION ERROR CAMERA 2</value>
+	</data>
+	<data name="ALARM_218" xml:space="preserve">
+		<value>THICKNESS TILE LASER NOT ADJUSTED</value>
+	</data>
+	<data name="ALARM_219" xml:space="preserve">
+		<value>COMMUNICATION ERROR VARIATOR SIDETABLE IN</value>
+	</data>
+	<data name="ALARM_220" xml:space="preserve">
+		<value>COMMUNICATION ERROR VARIATOR SIDETABLE OUT</value>
+	</data>
+	<data name="ALARM_221" xml:space="preserve">
+		<value>MOTOR FAILURE - SIDETABLE IN</value>
+	</data>
+	<data name="ALARM_222" xml:space="preserve">
+		<value>MOTOR FAILURE - SIDETABLE OUT</value>
+	</data>
+	<data name="ALARM_223" xml:space="preserve">
+		<value>NOTICE OF OVER-TORQUE IN TRANSPORTATION</value>
+	</data>
+	<data name="ALARM_224" xml:space="preserve">
+		<value>NOTICE OF OVER-TORQUE ON SIDETABLE IN</value>
+	</data>
+	<data name="ALARM_225" xml:space="preserve">
+		<value>NOTICE OF OVER-TORQUE ON SIDETABLE OUT</value>
+	</data>
+	<data name="ALARM_226" xml:space="preserve">
+		<value>MAIN POWER SUPPLY FAILURE</value>
+	</data>
+	<data name="ALARM_507" xml:space="preserve">
+		<value>ONE BAR HAS STOPPED PRINTING</value>
+	</data>
+	<data name="ALARM_508" xml:space="preserve">
+		<value>ONE BAR HAS STOPPED PRINTING</value>
+	</data>
+	<data name="ALARM_227" xml:space="preserve">
+		<value>Thickness sensor detected.</value>
+	</data>
+	<data name="ALARM_228" xml:space="preserve">
+		<value>Thickness sensor not detected.</value>
+	</data>
+	<data name="ALARM_229" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 1</value>
+	</data>
+	<data name="ALARM_230" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 2</value>
+	</data>
+	<data name="ALARM_231" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 3</value>
+	</data>
+	<data name="ALARM_232" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 4</value>
+	</data>
+	<data name="ALARM_233" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 5</value>
+	</data>
+	<data name="ALARM_234" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 6</value>
+	</data>
+	<data name="ALARM_235" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 7</value>
+	</data>
+	<data name="ALARM_236" xml:space="preserve">
+		<value>Overpressure alarm in ink system, bar 8</value>
+	</data>
+	<data name="ALARM_509" xml:space="preserve">
+		<value>INCONSISTENT SYNC DATA</value>
+	</data>
+	<data name="ALARM_510" xml:space="preserve">
+		<value>LOW LEVEL OF INK IN SYNC MARKER</value>
+	</data>
+	<data name="ALARM_520" xml:space="preserve">
+		<value>LOW DISK SPACE IN MASTER PC</value>
+	</data>
+	<data name="ALARM_521" xml:space="preserve">
+		<value>LOW DISK SPACE IN SLAVE PC</value>
+	</data>
+</root>

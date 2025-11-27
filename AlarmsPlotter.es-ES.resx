@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="P_ALARM_500" xml:space="preserve">
+    <value>FALLO DE COMUNICACIÓN CON EL PLC</value>
+  </data>
+  <data name="P_ALARM_501" xml:space="preserve">
+    <value>EL PLC ESTA EN STOP</value>
+  </data>
+  <data name="P_ALARM_502" xml:space="preserve">
+    <value>INICIALIZACIÓN PRINT</value>
+  </data>
+  <data name="P_ALARM_503" xml:space="preserve">
+    <value>SERVIDOR DE RIPEADO DESCONECTADO</value>
+  </data>
+  <data name="P_ALARM_504" xml:space="preserve">
+    <value>INICIALIZACIÓN PRINT - L2</value>
+  </data>
+  <data name="P_ALARM_001" xml:space="preserve">
+    <value>PULSADOR DE EMERGENCIA</value>
+  </data>
+  <data name="P_ALARM_010" xml:space="preserve">
+    <value>MOTOR EJE Y NO REFERENCIADO</value>
+  </data>
+  <data name="P_ALARM_100" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 5</value>
+  </data>
+  <data name="P_ALARM_101" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 6</value>
+  </data>
+  <data name="P_ALARM_102" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 7</value>
+  </data>
+  <data name="P_ALARM_103" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 8</value>
+  </data>
+  <data name="P_ALARM_104" xml:space="preserve">
+    <value>FALLO DE COMUNICACIÓN CON EL MOTOR DE LA BANDA</value>
+  </data>
+  <data name="P_ALARM_105" xml:space="preserve">
+    <value>NO HAY IMAGEN CARGADA PARA IMPRIMIR</value>
+  </data>
+  <data name="P_ALARM_106" xml:space="preserve">
+    <value>FALLO DE COMUNICACIÓN ENTRE EL PLC Y EL PC</value>
+  </data>
+  <data name="P_ALARM_011" xml:space="preserve">
+    <value>MOTOR EJE Z NO REFERENCIADO</value>
+  </data>
+  <data name="P_ALARM_012" xml:space="preserve">
+    <value>COMUNICACIÓN EJE X</value>
+  </data>
+  <data name="P_ALARM_013" xml:space="preserve">
+    <value>COMUNICACIÓN EJE Y</value>
+  </data>
+  <data name="P_ALARM_014" xml:space="preserve">
+    <value>COMUNICACIÓN EJE Z</value>
+  </data>
+  <data name="P_ALARM_015" xml:space="preserve">
+    <value>COMUNICACIÓN OTB</value>
+  </data>
+  <data name="P_ALARM_016" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 1</value>
+  </data>
+  <data name="P_ALARM_017" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 2</value>
+  </data>
+  <data name="P_ALARM_018" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 3</value>
+  </data>
+  <data name="P_ALARM_019" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 4</value>
+  </data>
+  <data name="P_ALARM_002" xml:space="preserve">
+    <value>SEGURIDAD BARRERA</value>
+  </data>
+  <data name="P_ALARM_020" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 5</value>
+  </data>
+  <data name="P_ALARM_021" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 6</value>
+  </data>
+  <data name="P_ALARM_022" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 7</value>
+  </data>
+  <data name="P_ALARM_023" xml:space="preserve">
+    <value>FAILSAFE DE LA BARRA 8</value>
+  </data>
+  <data name="P_ALARM_024" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 1 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_025" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 2 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_026" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 3 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_027" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 4 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_028" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 5 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_029" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 6 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_003" xml:space="preserve">
+    <value>MOTOR EJE X</value>
+  </data>
+  <data name="P_ALARM_030" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 7 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_031" xml:space="preserve">
+    <value>EL DEPÓSITO DE LA BARRA 8 ESTA VACÍO</value>
+  </data>
+  <data name="P_ALARM_032" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 1</value>
+  </data>
+  <data name="P_ALARM_033" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 2</value>
+  </data>
+  <data name="P_ALARM_034" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 3</value>
+  </data>
+  <data name="P_ALARM_035" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 4</value>
+  </data>
+  <data name="P_ALARM_036" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 5</value>
+  </data>
+  <data name="P_ALARM_037" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 6</value>
+  </data>
+  <data name="P_ALARM_038" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 7</value>
+  </data>
+  <data name="P_ALARM_039" xml:space="preserve">
+    <value>LLENAR DEPÓSITO 8</value>
+  </data>
+  <data name="P_ALARM_004" xml:space="preserve">
+    <value>MOTOR EJE Y</value>
+  </data>
+  <data name="P_ALARM_040" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 1</value>
+  </data>
+  <data name="P_ALARM_041" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 2</value>
+  </data>
+  <data name="P_ALARM_042" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 3</value>
+  </data>
+  <data name="P_ALARM_043" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 4</value>
+  </data>
+  <data name="P_ALARM_044" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 5</value>
+  </data>
+  <data name="P_ALARM_045" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 6</value>
+  </data>
+  <data name="P_ALARM_046" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 7</value>
+  </data>
+  <data name="P_ALARM_047" xml:space="preserve">
+    <value>COMUNICACIÓN INKBOX 8</value>
+  </data>
+  <data name="P_ALARM_048" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 1</value>
+  </data>
+  <data name="P_ALARM_049" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 2</value>
+  </data>
+  <data name="P_ALARM_005" xml:space="preserve">
+    <value>MOTOR EJE Z</value>
+  </data>
+  <data name="P_ALARM_050" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 3</value>
+  </data>
+  <data name="P_ALARM_051" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 4</value>
+  </data>
+  <data name="P_ALARM_052" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 5</value>
+  </data>
+  <data name="P_ALARM_053" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 6</value>
+  </data>
+  <data name="P_ALARM_054" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 7</value>
+  </data>
+  <data name="P_ALARM_055" xml:space="preserve">
+    <value>DIFERENCIAL DE VACÍO EN EL HEADER TANK DE LA BARRA 8</value>
+  </data>
+  <data name="P_ALARM_056" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 1</value>
+  </data>
+  <data name="P_ALARM_057" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 2</value>
+  </data>
+  <data name="P_ALARM_058" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 3</value>
+  </data>
+  <data name="P_ALARM_059" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 4</value>
+  </data>
+  <data name="P_ALARM_006" xml:space="preserve">
+    <value>VARIADOR AGITADORES</value>
+  </data>
+  <data name="P_ALARM_060" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 5</value>
+  </data>
+  <data name="P_ALARM_061" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 6</value>
+  </data>
+  <data name="P_ALARM_062" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 7</value>
+  </data>
+  <data name="P_ALARM_063" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA EN EL HEADER TANK DE LA BARRA 8</value>
+  </data>
+  <data name="P_ALARM_064" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 1</value>
+  </data>
+  <data name="P_ALARM_065" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 2</value>
+  </data>
+  <data name="P_ALARM_066" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 3</value>
+  </data>
+  <data name="P_ALARM_067" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 4</value>
+  </data>
+  <data name="P_ALARM_068" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 5</value>
+  </data>
+  <data name="P_ALARM_069" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 6</value>
+  </data>
+  <data name="P_ALARM_007" xml:space="preserve">
+    <value>VARIADOR MOTOR DE LA BANDA</value>
+  </data>
+  <data name="P_ALARM_070" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 7</value>
+  </data>
+  <data name="P_ALARM_071" xml:space="preserve">
+    <value>RELE TÉRMICO DEL AGITADOR 8</value>
+  </data>
+  <data name="P_ALARM_072" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 1</value>
+  </data>
+  <data name="P_ALARM_073" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 2</value>
+  </data>
+  <data name="P_ALARM_074" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 3</value>
+  </data>
+  <data name="P_ALARM_075" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 4</value>
+  </data>
+  <data name="P_ALARM_076" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 5</value>
+  </data>
+  <data name="P_ALARM_077" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 6</value>
+  </data>
+  <data name="P_ALARM_078" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 7</value>
+  </data>
+  <data name="P_ALARM_079" xml:space="preserve">
+    <value>ACTIVAR AGITACIÓN DE LA BARRA 8</value>
+  </data>
+  <data name="P_ALARM_008" xml:space="preserve">
+    <value>FALTA AIRE EN EL CIRCUITO DE AIRE (ASPIRACIÓN)</value>
+  </data>
+  <data name="P_ALARM_080" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 1</value>
+  </data>
+  <data name="P_ALARM_081" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 2</value>
+  </data>
+  <data name="P_ALARM_082" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 3</value>
+  </data>
+  <data name="P_ALARM_083" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 4</value>
+  </data>
+  <data name="P_ALARM_084" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 5</value>
+  </data>
+  <data name="P_ALARM_085" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 6</value>
+  </data>
+  <data name="P_ALARM_086" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 7</value>
+  </data>
+  <data name="P_ALARM_087" xml:space="preserve">
+    <value>DIFERENCIAL DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 8</value>
+  </data>
+  <data name="P_ALARM_088" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 1 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_089" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 2 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_009" xml:space="preserve">
+    <value>MOTOR EJE X NO REFERENCIADO</value>
+  </data>
+  <data name="P_ALARM_090" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 3 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_091" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 4 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_092" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 5 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_093" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 6 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_094" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 7 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_095" xml:space="preserve">
+    <value>RECIRCULACIÓN DE LA BARRA 8 ESTA PARADA</value>
+  </data>
+  <data name="P_ALARM_096" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 1</value>
+  </data>
+  <data name="P_ALARM_097" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 2</value>
+  </data>
+  <data name="P_ALARM_098" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 3</value>
+  </data>
+  <data name="P_ALARM_099" xml:space="preserve">
+    <value>ROTURA DE SONDA DE TEMPERATURA DEL DEPÓSITO DE LA BARRA 4</value>
+  </data>
+  <data name="P_ALARM_505" xml:space="preserve">
+    <value>ERROR COMUNICACIÓN CÁMARA 1</value>
+  </data>
+  <data name="P_ALARM_107" xml:space="preserve">
+    <value>ALARMA DE SENSOR DE ESPESOR</value>
+  </data>
+</root>

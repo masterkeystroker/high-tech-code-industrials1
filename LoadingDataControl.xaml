@@ -1,0 +1,41 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:CC3_GUI" xmlns:lex="http://schemas.root-project.org/xaml/presentation"
+	mc:Ignorable="d"
+	x:Class="CC3_GUI.Managers.LoadingDataControl"
+	x:Name="UserControl"
+	d:DesignWidth="720" d:DesignHeight="920" Width="350">
+	<Grid Margin="0,0,0,200" VerticalAlignment="Center">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.425*"/>
+			<RowDefinition Height="0.575*"/>
+		</Grid.RowDefinitions>
+		
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions> 
+
+		<Rectangle Margin="0" RadiusY="10" RadiusX="10" Style="{DynamicResource CretaRectangleBackground}" Grid.RowSpan="2" d:LayoutOverrides="GridBox">
+			<Rectangle.Fill>
+				<SolidColorBrush Color="{DynamicResource Cretaprint_Gris_Fondo}"/>
+			</Rectangle.Fill>
+			<Rectangle.Stroke>
+				<SolidColorBrush Color="{DynamicResource CretaPrint_BorderWindow}"/>
+			</Rectangle.Stroke>
+		</Rectangle>
+		<GroupBox Margin="10" Style="{DynamicResource CretaGroupBox}">
+			<ProgressBar x:Name="LoadingBar" Height="40" Margin="10,15,10,10" VerticalAlignment="Center">
+				<ProgressBar.Foreground>
+					<SolidColorBrush Color="{DynamicResource Cretaprint_Naranja}"/>
+				</ProgressBar.Foreground>
+				<ProgressBar.Effect>
+					<DropShadowEffect ShadowDepth="0" BlurRadius="10"/>
+				</ProgressBar.Effect>
+			</ProgressBar>
+		</GroupBox>
+
+	</Grid>
+</UserControl>

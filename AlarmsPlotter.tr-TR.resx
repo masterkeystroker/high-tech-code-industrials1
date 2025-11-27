@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="P_ALARM_500" xml:space="preserve">
+		<value>PLC ILE HABERLESME HATASI</value>
+	</data>
+	<data name="P_ALARM_501" xml:space="preserve">
+		<value>PLC DURDU</value>
+	</data>
+	<data name="P_ALARM_502" xml:space="preserve">
+		<value>BASKI SUNUCUSU KULLANIMA HAZIR DEGIL</value>
+	</data>
+	<data name="P_ALARM_503" xml:space="preserve">
+		<value>CEVIRI SUNUCUSU BAGLI DEGIL</value>
+	</data>
+	<data name="P_ALARM_504" xml:space="preserve">
+		<value>BASKI SUNUCUSU KULLANIMA HAZIR DEGIL-L2</value>
+	</data>
+	<data name="P_ALARM_001" xml:space="preserve">
+		<value>ACIL STOPA BASILDI</value>
+	</data>
+	<data name="P_ALARM_100" xml:space="preserve">
+		<value>BAR5 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_101" xml:space="preserve">
+		<value>BAR6 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_102" xml:space="preserve">
+		<value>BAR7 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_103" xml:space="preserve">
+		<value>BAR8 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_104" xml:space="preserve">
+		<value>BANT MOTORU ILE HABERLESME HATASI</value>
+	</data>
+	<data name="P_ALARM_105" xml:space="preserve">
+		<value>BASKI ICIN IMAGE YOK</value>
+	</data>
+	<data name="P_ALARM_106" xml:space="preserve">
+		<value>PC VE PLC ARASI HABERLESME HATASI</value>
+	</data>
+	<data name="P_ALARM_016" xml:space="preserve">
+		<value>FAILSAFE BAR 1</value>
+	</data>
+	<data name="P_ALARM_017" xml:space="preserve">
+		<value>FAILSAFE BAR 2</value>
+	</data>
+	<data name="P_ALARM_018" xml:space="preserve">
+		<value>FAILSAFE BAR 3</value>
+	</data>
+	<data name="P_ALARM_019" xml:space="preserve">
+		<value>FAILSAFE BAR 4</value>
+	</data>
+	<data name="P_ALARM_020" xml:space="preserve">
+		<value>FAILSAFE BAR 5</value>
+	</data>
+	<data name="P_ALARM_021" xml:space="preserve">
+		<value>FAILSAFE BAR 6</value>
+	</data>
+	<data name="P_ALARM_022" xml:space="preserve">
+		<value>FAILSAFE BAR 7</value>
+	</data>
+	<data name="P_ALARM_023" xml:space="preserve">
+		<value>FAILSAFE BAR 8</value>
+	</data>
+	<data name="P_ALARM_024" xml:space="preserve">
+		<value>BAR1 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_025" xml:space="preserve">
+		<value>BAR2 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_026" xml:space="preserve">
+		<value>BAR3 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_027" xml:space="preserve">
+		<value>BAR4 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_028" xml:space="preserve">
+		<value>BAR5 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_029" xml:space="preserve">
+		<value>BAR6 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_030" xml:space="preserve">
+		<value>BAR7 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_031" xml:space="preserve">
+		<value>BAR8 TANKI BOS</value>
+	</data>
+	<data name="P_ALARM_032" xml:space="preserve">
+		<value>BAR1 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_033" xml:space="preserve">
+		<value>BAR2 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_034" xml:space="preserve">
+		<value>BAR3 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_035" xml:space="preserve">
+		<value>BAR4 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_036" xml:space="preserve">
+		<value>BAR5 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_037" xml:space="preserve">
+		<value>BAR6 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_038" xml:space="preserve">
+		<value>BAR7 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_039" xml:space="preserve">
+		<value>BAR8 TANKI DOLDUR</value>
+	</data>
+	<data name="P_ALARM_048" xml:space="preserve">
+		<value>BAR1 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_049" xml:space="preserve">
+		<value>BAR2 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_050" xml:space="preserve">
+		<value>BAR3 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_051" xml:space="preserve">
+		<value>BAR4 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_052" xml:space="preserve">
+		<value>BAR5 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_053" xml:space="preserve">
+		<value>BAR6 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_054" xml:space="preserve">
+		<value>BAR7 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_055" xml:space="preserve">
+		<value>BAR8 BOYA BLOGU VACUM FARKI</value>
+	</data>
+	<data name="P_ALARM_056" xml:space="preserve">
+		<value>BAR1 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_057" xml:space="preserve">
+		<value>BAR2 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_058" xml:space="preserve">
+		<value>BAR3 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_059" xml:space="preserve">
+		<value>BAR4 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_060" xml:space="preserve">
+		<value>BAR5 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_061" xml:space="preserve">
+		<value>BAR6 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_062" xml:space="preserve">
+		<value>BAR7 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_063" xml:space="preserve">
+		<value>BAR8 BOYA BLOGU SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_064" xml:space="preserve">
+		<value>BAR1 TANK KARISTICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_065" xml:space="preserve">
+		<value>BAR2 TANK KARISTICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_066" xml:space="preserve">
+		<value>BAR3 TANK KARISTICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_067" xml:space="preserve">
+		<value>BAR4 TANK KARISTICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_068" xml:space="preserve">
+		<value>BAR5 KARISITIRICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_069" xml:space="preserve">
+		<value>BAR6 KARISITIRICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_070" xml:space="preserve">
+		<value>BAR7 KARISITIRICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_071" xml:space="preserve">
+		<value>BAR8 KARISITIRICI TERMIK HATASI</value>
+	</data>
+	<data name="P_ALARM_072" xml:space="preserve">
+		<value>BAR1 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_073" xml:space="preserve">
+		<value>BAR2 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_074" xml:space="preserve">
+		<value>BAR3 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_075" xml:space="preserve">
+		<value>BAR4 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_076" xml:space="preserve">
+		<value>BAR5 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_077" xml:space="preserve">
+		<value>BAR6 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_078" xml:space="preserve">
+		<value>BAR7 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_079" xml:space="preserve">
+		<value>BAR8 KARISTIRICI ACMA</value>
+	</data>
+	<data name="P_ALARM_008" xml:space="preserve">
+		<value>HAVA HATTINDA HAVA YOK(EMIS)</value>
+	</data>
+	<data name="P_ALARM_080" xml:space="preserve">
+		<value>BAR1 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_081" xml:space="preserve">
+		<value>BAR2 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_082" xml:space="preserve">
+		<value>BAR3 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_083" xml:space="preserve">
+		<value>BAR4 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_084" xml:space="preserve">
+		<value>BAR5 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_085" xml:space="preserve">
+		<value>BAR6 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_086" xml:space="preserve">
+		<value>BAR7 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_087" xml:space="preserve">
+		<value>BAR8 TANK ISITICI SICAKLIK FARKI</value>
+	</data>
+	<data name="P_ALARM_088" xml:space="preserve">
+		<value>BAR1 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_089" xml:space="preserve">
+		<value>BAR2 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_090" xml:space="preserve">
+		<value>BAR3 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_091" xml:space="preserve">
+		<value>BAR4 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_092" xml:space="preserve">
+		<value>BAR5 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_093" xml:space="preserve">
+		<value>BAR6 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_094" xml:space="preserve">
+		<value>BAR7 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_095" xml:space="preserve">
+		<value>BAR8 BOYA SIRKULASYONU DURDU</value>
+	</data>
+	<data name="P_ALARM_096" xml:space="preserve">
+		<value>BAR1 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_097" xml:space="preserve">
+		<value>BAR2 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_098" xml:space="preserve">
+		<value>BAR3 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_099" xml:space="preserve">
+		<value>BAR4 TANK ISITICISI PT-100 ARIZASI</value>
+	</data>
+	<data name="P_ALARM_505" xml:space="preserve">
+		<value>KAMERA 1 HABERLESME HATASI</value>
+	</data>
+</root>

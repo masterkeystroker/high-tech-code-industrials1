@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ALARM_001" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 1</value>
+	</data>
+	<data name="ALARM_010" xml:space="preserve">
+		<value>MANQUE D’AIR DANS LE CIRCUIT D’AIR 2 (ASPIRATION) [C-70U8]</value>
+	</data>
+	<data name="ALARM_100" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 5 [B5-8K2]</value>
+	</data>
+	<data name="ALARM_101" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 6 [B6-8K2]</value>
+	</data>
+	<data name="ALARM_102" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 7 [B7-8K2]</value>
+	</data>
+	<data name="ALARM_103" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 8 [B8-8K2]</value>
+	</data>
+	<data name="ALARM_104" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA VENTILATION DU CADRE PRINCIPAL [C-2D2D] [C-2Q2E]</value>
+	</data>
+	<data name="ALARM_105" xml:space="preserve">
+		<value>AVERTISSEMENT RELAI THERMIQUE DE LA VENTILATION DU CADRE PRINCIPAL [C-2D2D] [C-2Q2E]</value>
+	</data>
+	<data name="ALARM_106" xml:space="preserve">
+		<value>DÉFAUT DE SAI [C-10U3]</value>
+	</data>
+	<data name="ALARM_011" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DU TAPIS [C-8U2]</value>
+	</data>
+	<data name="ALARM_115" xml:space="preserve">
+		<value>CAPTEUR D’ÉPAISSEUR DE CARREAU À L'ENTRÉE [C-73U4]</value>
+	</data>
+	<data name="ALARM_116" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 1 [B1-20B2] [B1-20B5]</value>
+	</data>
+	<data name="ALARM_117" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 2 [B2-20B2] [B2-20B5]</value>
+	</data>
+	<data name="ALARM_118" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 3 [B3-20B2] [B3-20B5]</value>
+	</data>
+	<data name="ALARM_119" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 4 [B4-20B2] [B4-20B5]</value>
+	</data>
+	<data name="ALARM_012" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 1 [B1-70U1]</value>
+	</data>
+	<data name="ALARM_120" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 5 [B5-20B2] [B5-20B5]</value>
+	</data>
+	<data name="ALARM_121" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 6 [B6-20B2] [B6-20B5]</value>
+	</data>
+	<data name="ALARM_122" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 7 [B7-20B2] [B7-20B5]</value>
+	</data>
+	<data name="ALARM_123" xml:space="preserve">
+		<value>CAPTEURS DU PLATEAU DE LA BARRE 8 [B8-20B2] [B8-20B5]</value>
+	</data>
+	<data name="ALARM_124" xml:space="preserve">
+		<value>BOUTON-POUSSOIR D’URGENCE</value>
+	</data>
+	<data name="ALARM_125" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 1 [B1-23B1]</value>
+	</data>
+	<data name="ALARM_126" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 2 [B2-23B1]</value>
+	</data>
+	<data name="ALARM_127" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 3 [B3-23B1]</value>
+	</data>
+	<data name="ALARM_128" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 4 [B4-23B1]</value>
+	</data>
+	<data name="ALARM_129" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 5 [B5-23B1]</value>
+	</data>
+	<data name="ALARM_013" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 2 [B2-70U1]</value>
+	</data>
+	<data name="ALARM_130" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 6 [B6-23B1]</value>
+	</data>
+	<data name="ALARM_131" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 7 [B7-23B1]</value>
+	</data>
+	<data name="ALARM_132" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 8 [B8-23B1]</value>
+	</data>
+	<data name="ALARM_133" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 1 [B1-30U3]</value>
+	</data>
+	<data name="ALARM_134" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 2 [B2-30U3]</value>
+	</data>
+	<data name="ALARM_135" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 3 [B3-30U3]</value>
+	</data>
+	<data name="ALARM_136" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 4 [B4-30U3]</value>
+	</data>
+	<data name="ALARM_137" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 5 [B5-30U3]</value>
+	</data>
+	<data name="ALARM_138" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 6 [B6-30U3]</value>
+	</data>
+	<data name="ALARM_139" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 7 [B7-30U3]</value>
+	</data>
+	<data name="ALARM_014" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 3 [B3-70U1]</value>
+	</data>
+	<data name="ALARM_140" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 8 [B8-30U3]</value>
+	</data>
+	<data name="ALARM_141" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 1 [B1-32B4]</value>
+	</data>
+	<data name="ALARM_142" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 2 [B2-32B4]</value>
+	</data>
+	<data name="ALARM_143" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 3 [B3-32B4]</value>
+	</data>
+	<data name="ALARM_144" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 4 [B4-32B4]</value>
+	</data>
+	<data name="ALARM_145" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 5 [B5-32B4]</value>
+	</data>
+	<data name="ALARM_146" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE  A DU HEADER TANK DE LA BARRE 6 [B6-32B4]</value>
+	</data>
+	<data name="ALARM_147" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 7 [B7-32B4]</value>
+	</data>
+	<data name="ALARM_148" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE A DU HEADER TANK DE LA BARRE 8 [B8-32B4]</value>
+	</data>
+	<data name="ALARM_149" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 1 [B1-23B1]</value>
+	</data>
+	<data name="ALARM_015" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 4 [B4-70U1]</value>
+	</data>
+	<data name="ALARM_150" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 2 [B2-32B5]</value>
+	</data>
+	<data name="ALARM_151" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 3 [B3-32B5]</value>
+	</data>
+	<data name="ALARM_152" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 4 [B4-32B5]</value>
+	</data>
+	<data name="ALARM_153" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 5 [B5-32B5]</value>
+	</data>
+	<data name="ALARM_154" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 6 [B6-32B5]</value>
+	</data>
+	<data name="ALARM_155" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 7 [B7-32B5]</value>
+	</data>
+	<data name="ALARM_156" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE TEMPÉRATURE B DU HEADER TANK DE LA BARRE 8 [B8-32B5]</value>
+	</data>
+	<data name="ALARM_157" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 1</value>
+	</data>
+	<data name="ALARM_158" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 2</value>
+	</data>
+	<data name="ALARM_159" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 3</value>
+	</data>
+	<data name="ALARM_016" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 5 [B5-70U1]</value>
+	</data>
+	<data name="ALARM_160" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 4</value>
+	</data>
+	<data name="ALARM_161" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 5</value>
+	</data>
+	<data name="ALARM_162" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 6</value>
+	</data>
+	<data name="ALARM_163" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 7</value>
+	</data>
+	<data name="ALARM_164" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE D’ANTIBUÉE DE LA BARRE 8</value>
+	</data>
+	<data name="ALARM_165" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 1</value>
+	</data>
+	<data name="ALARM_166" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 2</value>
+	</data>
+	<data name="ALARM_167" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 3</value>
+	</data>
+	<data name="ALARM_168" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 4</value>
+	</data>
+	<data name="ALARM_169" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 5</value>
+	</data>
+	<data name="ALARM_017" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 6 [B6-70U1]</value>
+	</data>
+	<data name="ALARM_170" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 6</value>
+	</data>
+	<data name="ALARM_171" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 7</value>
+	</data>
+	<data name="ALARM_172" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DU RÉSERVOIR DE LA BARRE 8</value>
+	</data>
+	<data name="ALARM_173" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 1 [B1-32B2]</value>
+	</data>
+	<data name="ALARM_174" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 2 [B2-32B2]</value>
+	</data>
+	<data name="ALARM_175" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 3 [B3-32B2]</value>
+	</data>
+	<data name="ALARM_176" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 4 [B4-32B2]</value>
+	</data>
+	<data name="ALARM_177" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 5 [B5-32B2]</value>
+	</data>
+	<data name="ALARM_178" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 6 [B6-32B2]</value>
+	</data>
+	<data name="ALARM_179" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 7 [B7-32B2]</value>
+	</data>
+	<data name="ALARM_018" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 7 [B7-70U1]</value>
+	</data>
+	<data name="ALARM_180" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE A DU HEADER TANK DE LA BARRE 8 [B8-32B2]</value>
+	</data>
+	<data name="ALARM_181" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 1 [B1-32B3]</value>
+	</data>
+	<data name="ALARM_182" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 2 [B2-32B3]</value>
+	</data>
+	<data name="ALARM_183" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 3 [B3-32B3]</value>
+	</data>
+	<data name="ALARM_184" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 4 [B4-32B3]</value>
+	</data>
+	<data name="ALARM_185" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 5 [B5-32B3]</value>
+	</data>
+	<data name="ALARM_186" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 6 [B6-32B3]</value>
+	</data>
+	<data name="ALARM_187" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 7 [B7-32B3]</value>
+	</data>
+	<data name="ALARM_188" xml:space="preserve">
+		<value>RUPTURE DE SONDE DE VIDE B DU HEADER TANK DE LA BARRE 8 [B8-32B3]</value>
+	</data>
+	<data name="ALARM_189" xml:space="preserve">
+		<value>MOTEUR DE LA BANDE SANS FIN [C-8U2]</value>
+	</data>
+	<data name="ALARM_019" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MOTEUR DE LA BARRE 8 [B8-70U1]</value>
+	</data>
+	<data name="ALARM_190" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 1 [B1-1Q4]</value>
+	</data>
+	<data name="ALARM_191" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 2 [B2-1Q4]</value>
+	</data>
+	<data name="ALARM_192" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 3 [B3-1Q4]</value>
+	</data>
+	<data name="ALARM_193" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 4 [B4-1Q4]</value>
+	</data>
+	<data name="ALARM_194" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 5 [B5-1Q4]</value>
+	</data>
+	<data name="ALARM_195" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 6 [B6-1Q4]</value>
+	</data>
+	<data name="ALARM_196" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 7 [B7-1Q4]</value>
+	</data>
+	<data name="ALARM_197" xml:space="preserve">
+		<value>RELAI THERMIQUE DE LA BARRE 8 [B8-1Q4]</value>
+	</data>
+	<data name="ALARM_198" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 1 [B1-3G3]</value>
+	</data>
+	<data name="ALARM_199" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 2 [B2-3G3]</value>
+	</data>
+	<data name="ALARM_002" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 2</value>
+	</data>
+	<data name="ALARM_020" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 1 [B1-42A5]</value>
+	</data>
+	<data name="ALARM_200" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 3 [B3-3G3]</value>
+	</data>
+	<data name="ALARM_201" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 4 [B4-3G3]</value>
+	</data>
+	<data name="ALARM_202" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 5 [B5-3G3]</value>
+	</data>
+	<data name="ALARM_203" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 6 [B6-3G3]</value>
+	</data>
+	<data name="ALARM_204" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 7 [B7-3G3]</value>
+	</data>
+	<data name="ALARM_205" xml:space="preserve">
+		<value>SOURCE D’ALIMENTATION DES TÊTES DE LA BARRE 8 [B8-3G3]</value>
+	</data>
+	<data name="ALARM_206" xml:space="preserve">
+		<value>ORDRE D’ARRÊT EXTERNE LIGNE 1</value>
+	</data>
+	<data name="ALARM_207" xml:space="preserve">
+		<value>ORDRE D’ARRÊT EXTERNE LIGNE 2</value>
+	</data>
+	<data name="ALARM_209" xml:space="preserve">
+		<value>LES BARRES NE SONT PAS EN POSITION D’IMPRESSION</value>
+	</data>
+	<data name="ALARM_021" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 2 [B2-42A5]</value>
+	</data>
+	<data name="ALARM_210" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 1 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_211" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 2 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_212" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 3 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_213" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 4 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_214" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 5 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_215" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 6 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_216" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 7 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_217" xml:space="preserve">
+		<value>LA RECIRCULATION DE LA BARRE 8 EST ARRÊTÉE</value>
+	</data>
+	<data name="ALARM_500" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE PLC</value>
+	</data>
+	<data name="ALARM_501" xml:space="preserve">
+		<value>LE PLC EST A L’ARRÊT</value>
+	</data>
+	<data name="ALARM_022" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 3 [B3-42A5]</value>
+	</data>
+	<data name="ALARM_023" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 4 [B4-42A5]</value>
+	</data>
+	<data name="ALARM_024" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 5 [B5-42A5]</value>
+	</data>
+	<data name="ALARM_025" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 6 [B6-42A5]</value>
+	</data>
+	<data name="ALARM_026" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 7 [B7-42A5]</value>
+	</data>
+	<data name="ALARM_027" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE D’E/S DE LA BARRE 8 [B8-42A5]</value>
+	</data>
+	<data name="ALARM_028" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION AVEC LE MODULE DE COMMANDES D’E/S [C-207A4]</value>
+	</data>
+	<data name="ALARM_029" xml:space="preserve">
+		<value>DÉFAUT DE COMMUNICATION ENTRE LE PLC ET LE PC</value>
+	</data>
+	<data name="ALARM_003" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 3</value>
+	</data>
+	<data name="ALARM_030" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 1</value>
+	</data>
+	<data name="ALARM_031" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 2</value>
+	</data>
+	<data name="ALARM_032" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 3</value>
+	</data>
+	<data name="ALARM_033" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 4</value>
+	</data>
+	<data name="ALARM_034" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 5</value>
+	</data>
+	<data name="ALARM_035" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 6</value>
+	</data>
+	<data name="ALARM_036" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 7</value>
+	</data>
+	<data name="ALARM_037" xml:space="preserve">
+		<value>REMPLIR RÉSERVOIR 8</value>
+	</data>
+	<data name="ALARM_038" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 1 EST VIDE</value>
+	</data>
+	<data name="ALARM_039" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 2 EST VIDE</value>
+	</data>
+	<data name="ALARM_004" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 4</value>
+	</data>
+	<data name="ALARM_040" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 3 EST VIDE</value>
+	</data>
+	<data name="ALARM_041" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 4 EST VIDE</value>
+	</data>
+	<data name="ALARM_042" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 5 EST VIDE</value>
+	</data>
+	<data name="ALARM_043" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 6 EST VIDE</value>
+	</data>
+	<data name="ALARM_044" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 7 EST VIDE</value>
+	</data>
+	<data name="ALARM_045" xml:space="preserve">
+		<value>LE RÉSERVOIR DE LA BARRE 8 EST VIDE</value>
+	</data>
+	<data name="ALARM_046" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 1</value>
+	</data>
+	<data name="ALARM_047" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 2</value>
+	</data>
+	<data name="ALARM_048" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 3</value>
+	</data>
+	<data name="ALARM_049" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 4</value>
+	</data>
+	<data name="ALARM_005" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 5</value>
+	</data>
+	<data name="ALARM_050" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 5</value>
+	</data>
+	<data name="ALARM_051" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 6</value>
+	</data>
+	<data name="ALARM_052" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 7</value>
+	</data>
+	<data name="ALARM_053" xml:space="preserve">
+		<value>DIFFÉRENCE DE TEMPÉRATURE DANS LE HEADER TANK DE LA BARRE 8</value>
+	</data>
+	<data name="ALARM_054" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 1</value>
+	</data>
+	<data name="ALARM_055" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 2</value>
+	</data>
+	<data name="ALARM_056" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 3</value>
+	</data>
+	<data name="ALARM_057" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 4</value>
+	</data>
+	<data name="ALARM_058" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 5</value>
+	</data>
+	<data name="ALARM_059" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 6</value>
+	</data>
+	<data name="ALARM_006" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 6</value>
+	</data>
+	<data name="ALARM_060" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 7</value>
+	</data>
+	<data name="ALARM_061" xml:space="preserve">
+		<value>DIFFÉRENCE DE VIDE DANS LE HEADER TANK DE LA BARRE 8</value>
+	</data>
+	<data name="ALARM_062" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 1 [B1-21B5]</value>
+	</data>
+	<data name="ALARM_063" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 2 [B2-21B5]</value>
+	</data>
+	<data name="ALARM_064" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 3 [B3-21B5]</value>
+	</data>
+	<data name="ALARM_065" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 4 [B4-21B5]</value>
+	</data>
+	<data name="ALARM_066" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 5 [B5-21B5]</value>
+	</data>
+	<data name="ALARM_067" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 6 [B6-21B5]</value>
+	</data>
+	<data name="ALARM_068" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 7 [B7-21B5]</value>
+	</data>
+	<data name="ALARM_069" xml:space="preserve">
+		<value>FAILSAFE DE LA BARRE 8 [B8-21B5]</value>
+	</data>
+	<data name="ALARM_007" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 7</value>
+	</data>
+	<data name="ALARM_070" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 1 N’EST PAS RÉFÉRENCÉ [B1-70U1]</value>
+	</data>
+	<data name="ALARM_071" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 2 N’EST PAS RÉFÉRENCÉ [B2-70U1]</value>
+	</data>
+	<data name="ALARM_072" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 3 N’EST PAS RÉFÉRENCÉ [B3-70U1]</value>
+	</data>
+	<data name="ALARM_073" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 4 N’EST PAS RÉFÉRENCÉ [B4-70U1]</value>
+	</data>
+	<data name="ALARM_074" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 5 N’EST PAS RÉFÉRENCÉ [B5-70U1]</value>
+	</data>
+	<data name="ALARM_075" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 6 N’EST PAS RÉFÉRENCÉ [B6-70U1]</value>
+	</data>
+	<data name="ALARM_076" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 7 N’EST PAS RÉFÉRENCÉ [B7-70U1]</value>
+	</data>
+	<data name="ALARM_077" xml:space="preserve">
+		<value>LE MOTEUR DE LA BARRE 8 N’EST PAS RÉFÉRENCÉ [B8-70U1]</value>
+	</data>
+	<data name="ALARM_078" xml:space="preserve">
+		<value>IL N'Y A PAS D'IMAGE CHARGÉE À IMPRIMER</value>
+	</data>
+	<data name="ALARM_079" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 1 [B1-70U1]</value>
+	</data>
+	<data name="ALARM_008" xml:space="preserve">
+		<value>ACTIVER AGITATION DE LA BARRE 8</value>
+	</data>
+	<data name="ALARM_080" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 2 [B2-70U1]</value>
+	</data>
+	<data name="ALARM_081" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 3 [B3-70U1]</value>
+	</data>
+	<data name="ALARM_082" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 4 [B4-70U1]</value>
+	</data>
+	<data name="ALARM_083" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 5 [B5-70U1]</value>
+	</data>
+	<data name="ALARM_084" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 6 [B6-70U1]</value>
+	</data>
+	<data name="ALARM_085" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 7 [B7-70U1]</value>
+	</data>
+	<data name="ALARM_086" xml:space="preserve">
+		<value>MOTEUR DE LA BARRE 8 [B8-70U1]</value>
+	</data>
+	<data name="ALARM_087" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 1 NE SONT PAS COHÉRENTS [B1-30U3]</value>
+	</data>
+	<data name="ALARM_088" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 2 NE SONT PAS COHÉRENTS [B2-30U3]</value>
+	</data>
+	<data name="ALARM_089" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 3 NE SONT PAS COHÉRENTS [B3-30U3]</value>
+	</data>
+	<data name="ALARM_009" xml:space="preserve">
+		<value>MANQUE D’AIR DANS LE CIRCUIT D’AIR 1 (PRINCIPAL) [C-70U6]</value>
+	</data>
+	<data name="ALARM_090" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 4 NE SONT PAS COHÉRENTS [B4-30U3]</value>
+	</data>
+	<data name="ALARM_091" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 5 NE SONT PAS COHÉRENTS [B5-30U3]</value>
+	</data>
+	<data name="ALARM_092" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 6 NE SONT PAS COHÉRENTS [B6-30U3]</value>
+	</data>
+	<data name="ALARM_093" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 7 NE SONT PAS COHÉRENTS [B7-30U3]</value>
+	</data>
+	<data name="ALARM_094" xml:space="preserve">
+		<value>LES SIGNAUX DU NIVEAU DU RÉSERVOIR DE LA BARRE 8 NE SONT PAS COHÉRENTS [B8-30U3]</value>
+	</data>
+	<data name="ALARM_095" xml:space="preserve">
+		<value>ARRÊT POUR CAUSE DE HAUTEUR EXCESSIVE À L'ENTRÉE</value>
+	</data>
+	<data name="ALARM_096" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 1 [B1-8K2]</value>
+	</data>
+	<data name="ALARM_097" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 2 [B2-8K2]</value>
+	</data>
+	<data name="ALARM_098" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 3 [B3-8K2]</value>
+	</data>
+	<data name="ALARM_099" xml:space="preserve">
+		<value>RELAI THERMIQUE DE L’AGITATEUR 4 [B4-8K2]</value>
+	</data>
+	<data name="ALARM_502" xml:space="preserve">
+		<value>INITIALISATION PRINT</value>
+	</data>
+	<data name="ALARM_503" xml:space="preserve">
+		<value>Rippage non connecté</value>
+	</data>
+	<data name="SLAVE_ACTIV_1" xml:space="preserve">
+		<value>LX32 Drive tapis :</value>
+	</data>
+	<data name="SLAVE_ACTIV_2" xml:space="preserve">
+		<value>OTB îlot de commandes :</value>
+	</data>
+	<data name="SLAVE_ACTIV_11" xml:space="preserve">
+		<value>Moteur barre 1 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_12" xml:space="preserve">
+		<value>Moteur barre 2 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_13" xml:space="preserve">
+		<value>Moteur barre 3 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_14" xml:space="preserve">
+		<value>Moteur barre 4 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_15" xml:space="preserve">
+		<value>Moteur barre 5 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_16" xml:space="preserve">
+		<value>Moteur barre 6 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_17" xml:space="preserve">
+		<value>Moteur barre 7 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_18" xml:space="preserve">
+		<value>Moteur barre 8 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_21" xml:space="preserve">
+		<value>TM5 îlot barre 1 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_22" xml:space="preserve">
+		<value>TM5 îlot barre 2 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_23" xml:space="preserve">
+		<value>TM5 îlot barre 3 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_24" xml:space="preserve">
+		<value>TM5 îlot barre 4 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_25" xml:space="preserve">
+		<value>TM5 îlot barre 5 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_26" xml:space="preserve">
+		<value>TM5 îlot barre 6 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_27" xml:space="preserve">
+		<value>TM5 îlot barre 7 :</value>
+	</data>
+	<data name="SLAVE_ACTIV_28" xml:space="preserve">
+		<value>TM5 îlot barre 8 :</value>
+	</data>
+	<data name="ALARM_504" xml:space="preserve">
+		<value>INITIALISATION PRINT - L2</value>
+	</data>
+	<data name="ALARM_505" xml:space="preserve">
+		<value>ERREUR DE COMMUNICATION CAMÉRA 1</value>
+	</data>
+	<data name="ALARM_506" xml:space="preserve">
+		<value>ERREUR DE COMMUNICATION CAMÉRA 2</value>
+	</data>
+	<data name="ALARM_218" xml:space="preserve">
+		<value>LASER ÉPAISSEUR DE CARREAU NON RÉFÉRENCÉ</value>
+	</data>
+</root>

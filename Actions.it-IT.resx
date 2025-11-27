@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ACTION_102" xml:space="preserve">
+		<value>Slave</value>
+	</data>
+	<data name="ACTION_104" xml:space="preserve">
+		<value>Report di produzione</value>
+	</data>
+	<data name="ACTION_106" xml:space="preserve">
+		<value>Console</value>
+	</data>
+	<data name="ACTION_108" xml:space="preserve">
+		<value>Backup Configurazioni</value>
+	</data>
+	<data name="ACTION_110" xml:space="preserve">
+		<value>Pulizia Schermo</value>
+	</data>
+	<data name="ACTION_112" xml:space="preserve">
+		<value>Regolazione posizione pezzo</value>
+	</data>
+	<data name="ACTION_100" xml:space="preserve">
+		<value>Principale</value>
+	</data>
+	<data name="ACTION_114" xml:space="preserve">
+		<value>Allineamento</value>
+	</data>
+	<data name="ACTION_116" xml:space="preserve">
+		<value>Stampa della descrizione</value>
+	</data>
+	<data name="ACTION_118" xml:space="preserve">
+		<value>Qualità</value>
+	</data>
+	<data name="ACTION_120" xml:space="preserve">
+		<value>Allarmi</value>
+	</data>
+	<data name="ACTION_122" xml:space="preserve">
+		<value>Storico Allarmi</value>
+	</data>
+	<data name="ACTION_124" xml:space="preserve">
+		<value>Storico Azioni</value>
+	</data>
+	<data name="ACTION_126" xml:space="preserve">
+		<value>Configurazione Barra</value>
+	</data>
+	<data name="ACTION_128" xml:space="preserve">
+		<value>Modelli</value>
+	</data>
+	<data name="ACTION_130" xml:space="preserve">
+		<value>Menu Pulizia</value>
+	</data>
+	<data name="ACTION_132" xml:space="preserve">
+		<value>Disegni</value>
+	</data>
+	<data name="ACTION_134" xml:space="preserve">
+		<value>Lista Utenti</value>
+	</data>
+	<data name="ACTION_136" xml:space="preserve">
+		<value>TAS</value>
+	</data>
+	<data name="ACTION_138" xml:space="preserve">
+		<value>Stato Server di Stampa</value>
+	</data>
+	<data name="ACTION_140" xml:space="preserve">
+		<value>QR</value>
+	</data>
+	<data name="ACTION_142" xml:space="preserve">
+		<value>EFI Diagnostica</value>
+	</data>
+	<data name="ACTION_150" xml:space="preserve">
+		<value>Stato CANopen</value>
+	</data>
+	<data name="ACTION_152" xml:space="preserve">
+		<value>Fotocellula Entrata</value>
+	</data>
+	<data name="ACTION_154" xml:space="preserve">
+		<value>Regolare il motore Barra.</value>
+	</data>
+	<data name="ACTION_156" xml:space="preserve">
+		<value>Modalità</value>
+	</data>
+	<data name="ACTION_158" xml:space="preserve">
+		<value>Lingue</value>
+	</data>
+	<data name="ACTION_160" xml:space="preserve">
+		<value>Modalità in linea</value>
+	</data>
+	<data name="ACTION_162" xml:space="preserve">
+		<value>Testina TTEC</value>
+	</data>
+	<data name="ACTION_164" xml:space="preserve">
+		<value>Testina Xaar</value>
+	</data>
+	<data name="ACTION_166" xml:space="preserve">
+		<value>Testina Dimatix</value>
+	</data>
+	<data name="ACTION_168" xml:space="preserve">
+		<value>Nuovo modello</value>
+	</data>
+	<data name="ACTION_174" xml:space="preserve">
+		<value>Consumo Inchiostro</value>
+	</data>
+	<data name="ACTION_182" xml:space="preserve">
+		<value>Info</value>
+	</data>
+	<data name="ACTION_184" xml:space="preserve">
+		<value>Scegliere Modello da stampare</value>
+	</data>
+	<data name="ACTION_186" xml:space="preserve">
+		<value>Stampa Continua</value>
+	</data>
+	<data name="ACTION_188" xml:space="preserve">
+		<value>Iniziare Sessione</value>
+	</data>
+	<data name="ACTION_199" xml:space="preserve">
+		<value>Chiudere</value>
+	</data>
+	<data name="ACTION_190" xml:space="preserve">
+		<value>TAS Assistenza</value>
+	</data>
+	<data name="ACTION_192" xml:space="preserve">
+		<value>TAS Manuale</value>
+	</data>
+	<data name="ACTION_POPUP" xml:space="preserve">
+		<value>PopUp</value>
+	</data>
+	<data name="ACTION_200" xml:space="preserve">
+		<value>Avvio</value>
+	</data>
+	<data name="ACTION_201" xml:space="preserve">
+		<value>Arresto</value>
+	</data>
+	<data name="ACTION_202" xml:space="preserve">
+		<value>Stampa </value>
+	</data>
+	<data name="ACTION_203" xml:space="preserve">
+		<value>Canali di stampa</value>
+	</data>
+	<data name="ACTION_204" xml:space="preserve">
+		<value>Stato</value>
+	</data>
+	<data name="ACTION_205" xml:space="preserve">
+		<value>Stampa</value>
+	</data>
+	<data name="ACTION_206" xml:space="preserve">
+		<value>PROTEZIONE</value>
+	</data>
+	<data name="ACTION_207" xml:space="preserve">
+		<value>MANUTENZIONE</value>
+	</data>
+	<data name="ACTION_208" xml:space="preserve">
+		<value>PULIZIA</value>
+	</data>
+	<data name="ACTION_210" xml:space="preserve">
+		<value>Reset Allarmi</value>
+	</data>
+	<data name="ACTION_211" xml:space="preserve">
+		<value>Tacito Allarmi</value>
+	</data>
+	<data name="ACTION_212" xml:space="preserve">
+		<value>Barra</value>
+	</data>
+	<data name="ACTION_215" xml:space="preserve">
+		<value>Stampa Continua</value>
+	</data>
+	<data name="ACTION_216" xml:space="preserve">
+		<value>Testine  ON/OFF</value>
+	</data>
+	<data name="ACTION_217" xml:space="preserve">
+		<value>Linea di stampa 1 ON/OFF</value>
+	</data>
+	<data name="ACTION_218" xml:space="preserve">
+		<value>Linea di stampa 2 ON/OFF</value>
+	</data>
+	<data name="ACTION_219" xml:space="preserve">
+		<value>Tarare</value>
+	</data>
+	<data name="ACTION_220" xml:space="preserve">
+		<value>Tarare</value>
+	</data>
+	<data name="ACTION_221" xml:space="preserve">
+		<value>Logout</value>
+	</data>
+	<data name="ACTION_PRINT" xml:space="preserve">
+		<value>Stampe</value>
+	</data>
+	<data name="ACTION_021" xml:space="preserve">
+		<value>Stop</value>
+	</data>
+	<data name="ACTION_050" xml:space="preserve">
+		<value>Convertendo</value>
+	</data>
+	<data name="ACTION_051" xml:space="preserve">
+		<value>Ok</value>
+	</data>
+	<data name="ACTION_055" xml:space="preserve">
+		<value>Errore – Non Convertito</value>
+	</data>
+	<data name="ACTION_052" xml:space="preserve">
+		<value>In coda</value>
+	</data>
+	<data name="ACTION_053" xml:space="preserve">
+		<value>L'immagine TIF originale non è stata trovata</value>
+	</data>
+	<data name="ACTION_057" xml:space="preserve">
+		<value>Interrompi la conversione</value>
+	</data>
+	<data name="ACTION_250" xml:space="preserve">
+		<value>Generale</value>
+	</data>
+	<data name="ACTION_251" xml:space="preserve">
+		<value>Inchiostri</value>
+	</data>
+	<data name="ACTION_252" xml:space="preserve">
+		<value>Ripristino Automatico</value>
+	</data>
+	<data name="ACTION_253" xml:space="preserve">
+		<value>PROTEZIONE</value>
+	</data>
+	<data name="ACTION_254" xml:space="preserve">
+		<value>Carrello di pulizia</value>
+	</data>
+	<data name="ACTION_255" xml:space="preserve">
+		<value>Pulizia Venturi</value>
+	</data>
+	<data name="ACTION_256" xml:space="preserve">
+		<value>Svuotare il Venturi</value>
+	</data>
+	<data name="ACTION_257" xml:space="preserve">
+		<value>Inchiostri</value>
+	</data>
+	<data name="ACTION_258" xml:space="preserve">
+		<value>Riscaldamento barra</value>
+	</data>
+	<data name="ACTION_259" xml:space="preserve">
+		<value>Riscaldamento serbatoio</value>
+	</data>
+	<data name="ACTION_260" xml:space="preserve">
+		<value>Agitatore</value>
+	</data>
+	<data name="ACTION_264" xml:space="preserve">
+		<value>Offset utente</value>
+	</data>
+	<data name="ACTION_265" xml:space="preserve">
+		<value>Temp. sp. Sist. Inchiostro</value>
+	</data>
+	<data name="ACTION_266" xml:space="preserve">
+		<value>Impostazione Vuoto</value>
+	</data>
+	<data name="ACTION_267" xml:space="preserve">
+		<value>Pompa Carico Inchiostro</value>
+	</data>
+	<data name="ACTION_268" xml:space="preserve">
+		<value>Pompa Overflow</value>
+	</data>
+	<data name="ACTION_270" xml:space="preserve">
+		<value>Temperatura  Barra</value>
+	</data>
+	<data name="ACTION_271" xml:space="preserve">
+		<value>Temperatura Serbatoio</value>
+	</data>
+	<data name="ACTION_280" xml:space="preserve">
+		<value>Riavvio</value>
+	</data>
+	<data name="ACTION_281" xml:space="preserve">
+		<value>Spegnere</value>
+	</data>
+	<data name="ACTION_282" xml:space="preserve">
+		<value>Nuovo Modello</value>
+	</data>
+	<data name="ACTION_283" xml:space="preserve">
+		<value>Copiare</value>
+	</data>
+	<data name="ACTION_284" xml:space="preserve">
+		<value>Eliminare</value>
+	</data>
+	<data name="ACTION_285" xml:space="preserve">
+		<value>Convertire tutto</value>
+	</data>
+	<data name="ACTION_286" xml:space="preserve">
+		<value>Convertire </value>
+	</data>
+	<data name="ACTION_287" xml:space="preserve">
+		<value>Interrompi Conversione</value>
+	</data>
+	<data name="ACTION_288" xml:space="preserve">
+		<value>Blocca Conversione</value>
+	</data>
+	<data name="ACTION_289" xml:space="preserve">
+		<value>Elimina Conversione</value>
+	</data>
+	<data name="ACTION_290" xml:space="preserve">
+		<value>Aggiungere immagine</value>
+	</data>
+	<data name="ACTION_291" xml:space="preserve">
+		<value>Cancellare immagine</value>
+	</data>
+	<data name="ACTION_292" xml:space="preserve">
+		<value>Modalità</value>
+	</data>
+	<data name="ACTION_294" xml:space="preserve">
+		<value>Convalida Campione</value>
+	</data>
+	<data name="ACTION_295" xml:space="preserve">
+		<value>Eliminare</value>
+	</data>
+	<data name="ACTION_300" xml:space="preserve">
+		<value>Disegni</value>
+	</data>
+	<data name="ACTION_298" xml:space="preserve">
+		<value>Nuovo</value>
+	</data>
+	<data name="ACTION_299" xml:space="preserve">
+		<value>Eliminare</value>
+	</data>
+	<data name="ACTION_311" xml:space="preserve">
+		<value>Forzato manualmente</value>
+	</data>
+	<data name="ACTION_312" xml:space="preserve">
+		<value>Spit</value>
+	</data>
+	<data name="ACTION_316" xml:space="preserve">
+		<value>Eliminare</value>
+	</data>
+	<data name="ACTION_315" xml:space="preserve">
+		<value>Salvare</value>
+	</data>
+	<data name="ACTION_320" xml:space="preserve">
+		<value>Salvare</value>
+	</data>
+	<data name="ACTION_061" xml:space="preserve">
+		<value>Errore – Server conversione disconnesso</value>
+	</data>
+	<data name="ACTION_350" xml:space="preserve">
+		<value>USB Drive</value>
+	</data>
+	<data name="ACTION_SCREEN" xml:space="preserve">
+		<value>Vai allo schermo</value>
+	</data>
+	<data name="ACTION_170" xml:space="preserve">
+		<value>Copia modello</value>
+	</data>
+	<data name="ACTION_172" xml:space="preserve">
+		<value>Cancella modello</value>
+	</data>
+	<data name="ACTION_176" xml:space="preserve">
+		<value>Nuova Qualità</value>
+	</data>
+	<data name="ACTION_177" xml:space="preserve">
+		<value>Copia Qualità</value>
+	</data>
+	<data name="ACTION_178" xml:space="preserve">
+		<value>Cancella Qualità</value>
+	</data>
+	<data name="ACTION_179" xml:space="preserve">
+		<value>Salva i Dati</value>
+	</data>
+	<data name="ACTION_TYPE" xml:space="preserve">
+		<value>Tipo di azione</value>
+	</data>
+	<data name="ACTION_BUTTON" xml:space="preserve">
+		<value>Pulsante attivo</value>
+	</data>
+	<data name="ACTION_APP" xml:space="preserve">
+		<value>Applicazione</value>
+	</data>
+	<data name="ACTION_RENDER" xml:space="preserve">
+		<value>Convertito</value>
+	</data>
+	<data name="ACTION_001" xml:space="preserve">
+		<value>Avvio Kernel</value>
+	</data>
+	<data name="ACTION_002" xml:space="preserve">
+		<value>Avvio GUI</value>
+	</data>
+	<data name="ACTION_003" xml:space="preserve">
+		<value>Kernel chiuso</value>
+	</data>
+	<data name="ACTION_004" xml:space="preserve">
+		<value>Applicazione non chiusa correttamente</value>
+	</data>
+	<data name="ACTION_005" xml:space="preserve">
+		<value>GUI Chiuso</value>
+	</data>
+	<data name="ACTION_006" xml:space="preserve">
+		<value>Storico Pulizie</value>
+	</data>
+	<data name="ACTION_325" xml:space="preserve">
+		<value>Salvare Alliniamento</value>
+	</data>
+	<data name="ACTION_330" xml:space="preserve">
+		<value>Salvare</value>
+	</data>
+	<data name="ACTION_335" xml:space="preserve">
+		<value>Eliminare informazione Produzione</value>
+	</data>
+	<data name="ACTION_340" xml:space="preserve">
+		<value>Salvare archivio backup</value>
+	</data>
+	<data name="ACTION_341" xml:space="preserve">
+		<value>Aprire archivio backup</value>
+	</data>
+	<data name="ACTION_342" xml:space="preserve">
+		<value>Ripristino da archivio backup</value>
+	</data>
+	<data name="ACTION_189" xml:space="preserve">
+		<value>Attivazione licenza</value>
+	</data>
+	<data name="ACTION_345" xml:space="preserve">
+		<value>Giorni rimanenti per attivare la licenza</value>
+	</data>
+	<data name="ACTION_346" xml:space="preserve">
+		<value>Licenza Attivazione</value>
+	</data>
+	<data name="ACTION_058" xml:space="preserve">
+		<value>Errore- non ce sufficiente spazio nel disco</value>
+	</data>
+	<data name="ACTION_059" xml:space="preserve">
+		<value>Errore-Modello non trovato</value>
+	</data>
+	<data name="ACTION_060" xml:space="preserve">
+		<value>Errore-Qualità non trovata</value>
+	</data>
+	<data name="ACTION_062" xml:space="preserve">
+		<value>Eccezione</value>
+	</data>
+	<data name="ACTION_222" xml:space="preserve">
+		<value>Riavvia comunicazione con gli Slave</value>
+	</data>
+	<data name="ACTION_187" xml:space="preserve">
+		<value>CretaAssistance</value>
+	</data>
+	<data name="ACTION_223" xml:space="preserve">
+		<value>Distanza del getto modificato</value>
+	</data>
+</root>

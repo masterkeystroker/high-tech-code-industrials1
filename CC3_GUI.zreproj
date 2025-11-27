@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project>
+  <configuration createBackupFiles="False" hideEmptyRows="False" hideTranslatedRows="False" useSpellChecker="True" neutralLanguageCode="en-US" languagesToDisplay="">
+    <globalSetting name="Filter-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="ActiveFilterString" /&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="Sort-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="projectMruItems">&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;items&gt;&lt;item type="2" checksum="15484322482" /&gt;&lt;item type="2" checksum="11228110472" /&gt;&lt;item type="2" checksum="18235294913" /&gt;&lt;/items&gt;</globalSetting>
+    <globalSetting name="receiveFileFromTranslator.sourceFilePathTextEdit.Text">C:\Users\vsorolla\Documents\Alarmas.xls</globalSetting>
+    <globalSetting name="receiveFileFromTranslator.fileGroupsListBox">
+    </globalSetting>
+    <globalSetting name="receiveFileFromTranslator.languagesToImportCheckListBox">0</globalSetting>
+    <globalSetting name="sendFileToTranslator.destinationFilePathTextEdit.Text">C:\Users\vsorolla\Documents\Zeta Resource Editor projects\CC3_GUI.xls</globalSetting>
+    <globalSetting name="sendFileToTranslator.fileGroupsListBox">..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms###{{{}}}###..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base###{{{}}}###..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings</globalSetting>
+    <globalSetting name="sendFileToTranslator.languagesToExportCheckListBox">Czech (Czech Republic) (cs-cz)###{{{}}}###Spanish (Spain) (es-es)###{{{}}}###French (France) (fr-fr)###{{{}}}###Indonesian (Indonesia) (id-id)###{{{}}}###Italian (Italy) (it-it)###{{{}}}###Korean (Korea) (ko-kr)###{{{}}}###Polish (Poland) (pl-pl)###{{{}}}###Portuguese (Portugal) (pt-pt)###{{{}}}###Russian (Russia) (ru-ru)###{{{}}}###Turkish (Turkey) (tr-tr)###{{{}}}###Chinese (People's Republic of China) (zh-cn)</globalSetting>
+    <globalSetting name="sendFileToTranslator.referenceLanguageComboBoxEdit.SelectedIndex">1</globalSetting>
+    <globalSetting name="sendFileToTranslator.openFileAfterGeneratingCheckEdit.Checked">True</globalSetting>
+    <globalSetting name="sendFileToTranslator.openAfterGeneratingCheckEdit.Checked">True</globalSetting>
+    <globalSetting name="sendFileToTranslator.eliminateDuplicateRowsCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportWithoutDestinationTranslationOnlyCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportCompletelyEmptyRowsCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportGroupsAsOneWorkSheetCheckEdit.Checked">True</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportNameColumnCheckEdit.Checked">True</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportCommentColumnCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportReferenceLanguageColumnCheckEdit.Checked">True</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportFileGroupColumnCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportGroupsAsWorkSheetsCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportGroupsAsExcelFilesCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.exportEachLanguageIntoSeparateExcelFileCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.useCrypticExcelExportSheetNamesCheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.sendFilesToEMailReceivers2CheckEdit.Checked">False</globalSetting>
+    <globalSetting name="sendFileToTranslator.zulReceiversTextEdit.Text">someone@example.org, someone-other@example.org</globalSetting>
+    <globalSetting name="sendFileToTranslator.zulSubjectTextEdit.Text">[ZRE] Excel files for translating project "{ProjectName}"</globalSetting>
+    <globalSetting name="sendFileToTranslator.zulBodyTextEdit.Text">Please download the Excel documents in the link to translate the project "{ProjectName}".
+
+To send me the translated files back, simply use https://www.zeta-uploader.com
+
+Kind regards</globalSetting>
+    <globalSetting name="autoTranslateForm.prefixTextBox.Text">####</globalSetting>
+    <globalSetting name="autoTranslateForm.prefixCheckBox.Checked">False</globalSetting>
+    <globalSetting name="autoTranslateForm.referenceLanguageComboBoxEdit.SelectedIndex">-1</globalSetting>
+    <globalSetting name="autoTranslateForm.languagesToTranslateCheckListBox">
+    </globalSetting>
+    <globalSetting name="advancedOptionsPanel.Visible">True</globalSetting>
+    <globalSetting name="sendFileToTranslator.destinationFilePathTextEdit.InitialDirectory">C:\Users\vsorolla\Documents\Zeta Resource Editor projects</globalSetting>
+    <userSetting name="vsorolla@CRETAPRINT.filesInitialDir">C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages</userSetting>
+    <userSetting name="vsorolla@CRETAPRINT.FindText">enable</userSetting>
+    <userSetting name="vsorolla@CRETAPRINT.RecentFiles">C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.cs-CZ.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.en-US.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.es-ES.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.fr-FR.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.id-ID.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.it-IT.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.ko-KR.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.pl-PL.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.ru-RU.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.tr-TR.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Strings.zh-CN.resx</userSetting>
+    <userSetting name="vsorolla@EFI.FindText">
+    </userSetting>
+    <userSetting name="vsorolla@EFI.RecentFiles">C:\Desarrollo\CretaBase\CretaBase\Langs\Base.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.cs-CZ.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.en-US.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.es-ES.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.fr-FR.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.id-ID.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.it-IT.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.ko-KR.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.pl-PL.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.pt-PT.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.ru-RU.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.tr-TR.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Base.zh-CN.resx###***###C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.cs-CZ.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.en-US.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.es-ES.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.fr-FR.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.id-ID.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.it-IT.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.ko-KR.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.pl-PL.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.pt-PT.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.ru-RU.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.tr-TR.resx;C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.zh-CN.resx###***###C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.cs-CZ.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.en-US.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.es-ES.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.fr-FR.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.id-ID.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.it-IT.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.ko-KR.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.pl-PL.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.pt-PT.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.ru-RU.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.tr-TR.resx;C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.zh-CN.resx</userSetting>
+    <userSetting name="vsorolla@EFI.filesInitialDir">C:\Desarrollo\CretaBase\CretaBase\Langs</userSetting>
+    <description>
+    </description>
+  </configuration>
+  <fileGroups>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="6" ignoreDuringExportAndImport="False" uniqueID="e51d0f10-dc55-43b4-bae9-080b9347a658">
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.resx" uniqueID="82e01c90-09a7-434c-aa73-7d34d4c50fa2" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.cs-CZ.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.cs-CZ.resx" uniqueID="d5bbce69-23a5-4d94-8df1-4133e31cad2a" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.en-US.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.en-US.resx" uniqueID="7dca941b-dc59-40b7-b17c-f220e3946b93" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.es-ES.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.es-ES.resx" uniqueID="6ae213ca-b96b-441b-a8a4-82dff7fdd14f" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.fr-FR.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.fr-FR.resx" uniqueID="59095145-99a7-47bb-b485-a2926301c062" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.id-ID.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.id-ID.resx" uniqueID="c20f16ae-d555-462d-949c-90872a8d6c48" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.it-IT.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.it-IT.resx" uniqueID="2fc0a5be-43c5-4d47-a006-816e976ee619" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.ko-KR.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.ko-KR.resx" uniqueID="14ff29b9-38db-4962-8a5e-35ff7f283d3c" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.pl-PL.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.pl-PL.resx" uniqueID="e9f718ca-f64f-4e02-83da-16150eb2dc16" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.pt-PT.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.pt-PT.resx" uniqueID="acdd1cef-7f7b-4d18-beeb-7653fa24a2d2" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.ru-RU.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.ru-RU.resx" uniqueID="6de78b7f-1ec3-46b3-b1a9-c1868271fa81" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.tr-TR.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.tr-TR.resx" uniqueID="231238c2-b791-424e-8068-f3d9b6743418" />
+      <file filePath="..\..\..\..\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.zh-CN.resx" absoluteFilePath="C:\Desarrollo\CC3\CC3_GUI\CC3_GUI\CretaLanguages\Alarms.zh-CN.resx" uniqueID="86a98198-99aa-4a3d-9639-bbdff2189f8e" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="c2d5da43-1e46-4f5a-8bbb-222bbbed950b">
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.resx" uniqueID="e41145ad-460b-47a3-8303-4f71a7cae92d" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.cs-CZ.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.cs-CZ.resx" uniqueID="95428341-e74b-444f-9ec1-07cb37ef38b2" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.en-US.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.en-US.resx" uniqueID="7e62bec0-8ed3-45af-857b-b8305ee5aed9" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.es-ES.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.es-ES.resx" uniqueID="77c6f6a3-d76a-4cd8-b0ea-c3b9f002c6de" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.fr-FR.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.fr-FR.resx" uniqueID="7f7e45f9-e62e-46ea-bd3a-716221107045" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.id-ID.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.id-ID.resx" uniqueID="5656fa39-c654-4711-89bb-1d57e6c28c38" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.it-IT.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.it-IT.resx" uniqueID="d293beca-736b-4e87-a8d3-93da500e5744" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.ko-KR.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.ko-KR.resx" uniqueID="30ae3a9f-a71b-493d-b22e-3ab177d6c1b0" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.pl-PL.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.pl-PL.resx" uniqueID="665ae636-1b14-4ea0-93f1-a5f12e1ce9af" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.pt-PT.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.pt-PT.resx" uniqueID="c7a91713-b4f8-4e5d-b799-7d8a08286415" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.ru-RU.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.ru-RU.resx" uniqueID="a657305d-e9f3-426a-bc0e-de734d32a685" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.tr-TR.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.tr-TR.resx" uniqueID="b2605061-8712-41ec-9bfa-d08e9b9f2b01" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Base.zh-CN.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Base.zh-CN.resx" uniqueID="723c6a2c-b33b-4711-bc09-3825370abef7" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="3b7f016b-9a33-4e6a-811d-47b3b22b6d3c">
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.resx" uniqueID="372b9842-13eb-42a4-987a-f9d20cca6dfb" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.cs-CZ.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.cs-CZ.resx" uniqueID="86e90a36-272b-40f3-97c2-a70784fbeead" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.en-US.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.en-US.resx" uniqueID="e56879f2-6c72-4dd6-9691-19401369a1e1" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.es-ES.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.es-ES.resx" uniqueID="175247c7-ae75-49ac-8d84-c14433944bc4" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.fr-FR.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.fr-FR.resx" uniqueID="a0029fa5-da62-4593-87c5-b6538ad85fb0" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.id-ID.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.id-ID.resx" uniqueID="f56f83db-5f34-4fdf-bf98-859f2413cb2e" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.it-IT.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.it-IT.resx" uniqueID="4bdf47bf-af67-496e-95b0-a5f253c9a421" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.ko-KR.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.ko-KR.resx" uniqueID="baa6e756-b324-4041-8cb4-420bc547cbb0" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.pl-PL.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.pl-PL.resx" uniqueID="7c7379b8-2fdb-43d4-9dac-2f002a4b0d05" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.pt-PT.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.pt-PT.resx" uniqueID="97e0afe8-0904-439d-8131-9702ee3332b5" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.ru-RU.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.ru-RU.resx" uniqueID="74427c7f-1a04-40ff-b23f-fb6a0fbf4026" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.tr-TR.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.tr-TR.resx" uniqueID="c85c0671-18f9-4d9e-8368-bfe5895cfc61" />
+      <file filePath="..\..\..\..\Desarrollo\CretaBase\CretaBase\Langs\Strings.zh-CN.resx" absoluteFilePath="C:\Desarrollo\CretaBase\CretaBase\Langs\Strings.zh-CN.resx" uniqueID="8e19bca2-569e-4eeb-95fb-4763ce5eaed8" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+  </fileGroups>
+  <projectFolders />
+</project>
