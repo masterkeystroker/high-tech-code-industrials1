@@ -1,0 +1,195 @@
+INSPECTION CAM BY ADVANCE VIDEO TECHNOLOGY (AVT)
+
+Actualmente existe el color uniformity y el nozzle out pero en la release 5 se incorporará una nueva
+funcionalidad que es defect detection.
+
+
+COMPONENTES QUE CONFORMAN EL SISTEMA CAMARA
+
+INSTALACION
+
+1. La controlBox. Permite la comunicación entre la cámara y el PC. Hay un cable que se le conoce como 
+pulpo porque es un cable del que se bifurcan varios cables. Fundamental para poder imprimir la señal de encoder
+y la señal de product Detect. La señal de product detect no va directa a la controlBox sino que pasa por un
+filtrado previo que lo realiza la SLM box (sync level matcher), que viene dle product detect.En algunos 
+lugares se pueden ver dos SLM boxes, una para el encoder y la otra para el product detect, en lugar de una.
+Del lado derecho del SLM Box la señal encoder va al server rack conectado a través del pulpo a la control box. 
+En el lado izquierdo el cable va a un bornero X325, de ahi a la carriage, luego se replica esa señal en el 
+bornero y de ahi a la placa lateral que es donde le llega la señal del encoder que pasa también a través del resto
+de módulos. Hay un tercer cable que va conectado a la cámara 1 y no a la 2, esto es porque las camaras
+estan conectadas entre si. La cam1 es la master (lee aprox 1040mm) y la cam2 slave (lee aprox 853mm). La
+alimentacion de las camaras no llega de la controlBox sino del cuadro a través de un breaker (carril din inferior) 
+que corta los positivos. La entrada de positivos viene por la fuente monofásica que esta al lado del breaker
+junto con la fuente trifásica. El breaker sólo alimenta el escaner.
+IMPORTANTE NO CRUZAR LOS CABLES BASE Y FULL QUE VIENE DEL PC. El cable morado ethernet es el que permite
+la conexion con el PC de la camara. 
+
+PROCEDIMIENTO APAGADO SISTEMA CAMARA
+
+ANTES DE CORTAR EL BREAKER, PRIMERO APAGAR CONTROLBOX Y EL PC, PARA LO CUAL
+MANTENER PULSADO EL BOTON VERDE DEL PC, LUEGO EL SWITH DE LA CONTROLBOX Y FINALMENTE EL SWITCH DEL PC. ENTONCES 
+SE PUEDE DESARMAR EL BREAKER. PC Y CONTROLBOX VAN ALIMENTADOS POR EL SAI DEL SERVER RACK Y DICHO SAI
+ES ALIMENTADO DESDE EL PDC.
+
+192.168.126.51 ----->  fiery RIP
+192.168.126.52 ----->  Video Blade o VELA.
+192.168.126.100 -----> PC cam system
+
+
+
+2. El PC de la camara
+
+
+
+
+3. La camara propiamente que se encuentra en la barra de inspeccion (Printer), con sus respectivos
+conectores. Esta compuesta por dos camaras.IMPORTANTE, la camara esta compuesta por dos camaras, aunque físicamente
+sólo vemos una camara.
+
+
+
+SOFTWARE DE LA CAMARA LCCD
+
+Al conectar con el .100 que es el pc de la cam LCCD.exe , el programa que vemos conecta con el press UI.
+El programa que vemos no nos vale para calibrar. EL PC de la camara tiene 64 Gb te RAM y le programa
+mencionada anteriormente consume mucha RAM, al cerrarlo (F2 para cerrar y esperar 2 minutos) le lleva un tiempo al sistema operativo marcar
+toda esa ram com libre. Todos los programas del PC de la cam se comunican con el escaner por el mismo puerto.Sólo
+es posible pues usar un programa a la vez para evitar conflictos de comunicación.
+
+TROUBLESHOOTING
+
+Valor FOV para cam1 = 1040 y para cam2=885 si imagenes estiradas
+
+Imagen escalonada en LCCD: cambiar Fifo direction comando d0 o d1,si version firmware del escaner 1,6/1,71 o + > comando T16. Si versión 0.96 > T4		
+
+
+PVSETUP (CON UI) Y TERATERM (SIN UI, SUELE ESTAR FUERA DE CARPETA APOLLO )SOFTWARE PARA CALIBRACION DE LA CAMARA EN ESTATICO
+
+De la carpeta apollo, los únicos programas que se usan son el LCCD.exe y el PvSetup.exe. EL PvSetup.exe sirve para
+ver imágenes en estático, es decir, ver el sustrato sin necesidad de mover la banda y además por separado, lo que
+ve la cam1 y lo que ve la cam2. Ese programa lo usamos para calibrar, tonalidades, sombras ...
+
+El teraterm no tiene tiene interfaz gráfica, mejor este programa para calibrar. Com21 se conecta a la cam1 y com22 a la 2.
+El teraterm conecta por defecto con la cam1. # para ver valores de comunicación. Comprobar que el width de la cam1 es 1040mmm
+y el width de la cam2 es 800mm. Cam1 debe tener mode:1 (master) y cam 2 debe tener mode:4.Para cerrar el teraterm recomendadedo
+file--> disconnect previamente.
+
+PvSetup, seleccionar site config. Comprobar que el encoder está en externo para que el LCCD pueda funcionar pero para calibraciones
+debemos usar el enconder interno. Drop list Optic Head, tenemos main para la cam1, second para la cam2 y multi las dos a la vez.
+El modulo LAVT debe ir a 2.5mm (jetting gap) de altura respecto la banda para el escaneo. LAVT = espesor carton + jetting gap(2.5mm).
+Para ajustar esta altura poner printer en manual y subir o bajar desde la UI.
+
+CisSetLightFailure es porque el encoder está en externo.
+
+Cuando se entra en el multihead, en el cuadro que nos aparece para indicar los limites laterales mediante los sliders, se debe
+poner la línea azul ligeramente hacia el interior de la guía de la banda. Límite izquierdo en torno a 500 y el límite derecho entorno
+a 21600. Los text box no son editables, se debe de modificar los valores mediante la rueda del ratón.
+
+Una vez establecidos los límites si se ha hecho correctamente se tiene el foco de la cam correcto. Siguiente paso cargar plantilla
+de calibración cebra o FocusCalibration para la cam1 como la cam2, para ello, elegir del droplist main y luego second.
+
+Para la cam1 o main del droplist,click en focus y en la siguiente ventana start. Cada línea de la gráfica representa
+la medición de cada punto de la cámara. Los valores deben estar entre 2.8 y 3.6, nunca por encima de 4. Es posibles ver esos 3 
+valores clicando sobre el check square ubicado en la parte inferior derecha de la ventana (recomendado), ya que el software hace
+la media aritmética de esos 3 valores.
+
+IMPORTANTE: hay que buscar el jetting gap (altura de la barra) que haga que la media aritmética para cada punto del escaner caiga
+en el rango de 2.8 a 3.6. Una vez encontrado ese jetting gap se lo debemos restar al jetting gap estandarizado y la diferencia es la que
+debemos subir o bajar mecánicamente la barra mediante los 4 bulones, 2 delanteros y 2 traseros.
+IMPORTANTE: 1/6 de vuelta es 0.166mm de desplazamiento vertical. Porque la barra de la camara esta apoyada sobre los bulones.
+
+Medida de ajuste: altura final LAVT(modo manual) - (2.5 + espesor substrato).
+Lado izquierdo de la ventana de gráficos es el lado operador de la respectiva camara. El valor del lado derecho sería aprox la 
+parte central de escaneo si fuera la cam1 o la parte final del escaneo si fuera la cam2.
+
+
+CORRECCION DE PIXELES
+
+V1 ---> desactivar,   V0 ------> activar. Es como si fuera un filtro, corrige el color y reduce las sombras. Interesa desactivar
+para ver lo que ve la camara, sin maquillaje hecho por el software LCCD.
+
+Droplist seleccionar multi y despues inspect para ver la curva de color que ve la camara. Los valores en la curva no deben
+superar 230 ubicando el cursor del ratón en zona baja de la campana. Esto para cada curva de color RGB.
+
+Para modificar las luminancias del escaner (sólo se usan 8 leds), se hace mediante el teraterm. Hay que cerrar PvSetup y abrir Teraterm.
+(En la version nueva la 6 ya no es necesario cerrar un programa y abrir el otro, se puede hacer desde la interfaz gráfica todo).
+
+Phase 0 R (C0,C1,C2,C3) E0
+Phase 1 G (C4,C5) E1
+Phase 2 B (C6,C7) E2
+
+Comando teraterm: E0,0,(valor a modificar).IMPORTANTE: TODOS LOS VALORES DEBEN COINCIDIR PARA CADA COMPONENTE, NO ES NECESARIO+
+ENTRE ELLOS, es decir, se puede tener R=9,G=8,B=10. SIEMPRE VAN A ESTAR EN ESCALERA. Repetir este proceso hasta conseguir un valor
+menor o igual a 230. Al final las 3 curvas "parábolas" deben mas o menos coincidir. IMPORTANTE IR GUARDANDO DURANTE TODO EL PROCESO DE 
+CALIBRACION PARA LO CUAL USAR EL COMANDO TERATERM $.$ para el RGB y comando S para el punto blanco.
+
+
+CALIBRACION PUNTO BLANCO
+
+Colocar substrato lo mas cercano a la guia operador para cam1, la otra para cam2, blowers al 90% y vel.banda al 10m/min.
+IMPORTANTE TENER EL TERATERM EN MARCHA. PROCEDIMIENTO:
+
+Justo cuando el cartón pase por debajo de la cam comando teraterm C5 y antes de que el substrato acabe de salir de la ventana 
+de escaneo de la camara comando L1. ES UN PROCEDIMIENTO RAPIDO. LO MISMO PARA LA OTRA CAMARA.FINALMENTE GUARDAS CON $.
+
+
+APLICACION
+
+RECOMENDACIONES PARA NOZZLE OUT Y COLOR UNIFORMITY (CU), TAMAÑO DE PLANCHA 1830MM X 1080MM, NO PRIMER NOZZLE OUT, SI PRIMER CU.
+
+Menu Inspection ----> Nozzle out -----> High Quality = vel < 50m/min  High Speed = vel > 50m/min.
+
+1. Indicamos tamaño de plancha y elegimos configuración CMYK o CMYKOV según máquina. Luego PRINT.
+
+IMPORTANTE: EL COLOR UNIFORMITY ES SENSIBLE A LA VELOCIDAD PARA LA IMPRESION, POR ESO SE GENERAN VARIOS PERFILES PARA DISTINTAS
+VELOCIDADES. ESCANEAR NO IMPORTA LA VELOCIDAD.
+
+IMPORTANTE SOBRE COLOR UNIFORMITY, ESTE PROCEDIMIENTO ENCOGE LA IMAGEN 20MM, 10 POR CADA LADO, ASEGURAR QUE HAY APROX 10MM DE MARGEN EN CADA LADA
+PARA QUE EL ESCANEO SEA SATISFACTORIO, DE LO CONTRARIO CORREGIR ENTRADA SUBSTRATO DESDE EL FEEDER O MOVER ADECUADAMENTE DESDE LA BANDA.
+
+TROUBLESHOOTING
+
+SLM PROBLEMAS
+
+Mirar switches dentro del SLM Boxm SW7 arriba en TRU y SW10 abajo en INV.
+
+PUERTOS LAN PROBLEMA COMUNICACION
+
+Si no se puede conectar con pc de la camara, cambiar el cable morado de un LAN al otro.
+
+PROBLEMAS CON EL PRODUCT DETECT O ENCODER EN LA CAMARA
+PROCEDIMIENTO.
+
+Abrir LCCD dentro de carpeta Apollo. Una vez en el programa pulsar, Ctrl + Shift + F12.
+
+Debug ----> ACB Terminal.
+
+Dos comandos: Wx para el encoder, wf para el product detect, yk para ver la version Altera firmware, yr para ver version firmware
+de la controlbox. 
+TRUCO. Mirar Led verde del SLM Box, éste indica cada plancha que se lee el product detect. Si hay incoherencia entre el
+numero de planchas y el valor leido mediante el comando wf posiblemente se este leyendo el agujero de la banda.
+
+RECORDAR QUE EL PRODUCT DETECT TIENE UN FILTRO SOFTWARE QUE PERMITE DESCARTAR SI EL OBJETO LEIDO ES VALIDO O NO EN FUNCION DE SI
+TIENE UNA LONGITUD SUPERIOR A UN DETERMINADO VALOR.
+
+PARA PERMUTAR EL ORDEN DE LOS CABLES FULL Y BASE NO HACE FALTA APAGAR NI EL PC, NI LA CONTROLBOX NI EL ESCANER. 
+
+
+VER VERSION ESCANER.
+
+Abrir Teraterm, com21 para camara 1 y escribir comando v (lower case). Com22 para version escaner cam2.
+
+
+LAMP USAGE TIME IS ABOVE X VALOR
+
+C:\Apollo\Config\Data\UIParams.txt
+
+Under [Lamps] set:
+
+YellowElapseTime=10000
+RedElapsedTime=10000
+CurrentLampsTimeInHour=0.0
+
+
+
+
